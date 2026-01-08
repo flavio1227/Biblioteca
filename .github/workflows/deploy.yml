@@ -39,7 +39,14 @@ jobs:
       - name: Fix HTML paths
         run: |
           if [ -f dist/index.html ]; then
-            node scripts/fix-paths.js
+            cd dist
+            # Fix absolute paths to include /Mapas/ base path
+            sed -i.bak 's|src="/\([^"]*\)"|src="/Mapas/\1"|g' index.html
+            sed -i.bak 's|href="/\([^"]*\)"|href="/Mapas/\1"|g' index.html
+            # Remove backup file
+            rm -f index.html.bak
+            echo "✅ Fixed paths in index.html"
+            grep -E '(src|href)=' index.html | head -3
           else
             echo "⚠️ dist/index.html not found, skipping path fix"
           fi
