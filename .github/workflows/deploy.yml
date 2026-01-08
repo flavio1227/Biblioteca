@@ -40,9 +40,12 @@ jobs:
         run: |
           if [ -f dist/index.html ]; then
             cd dist
-            # Fix absolute paths to include /Mapas/ base path
-            sed -i.bak 's|src="/\([^"]*\)"|src="/Mapas/\1"|g' index.html
-            sed -i.bak 's|href="/\([^"]*\)"|href="/Mapas/\1"|g' index.html
+            # Fix absolute paths that don't already have /Mapas/
+            sed -i.bak 's|src="/\([^M][^"]*\)"|src="/Mapas/\1"|g' index.html
+            sed -i.bak 's|href="/\([^M][^"]*\)"|href="/Mapas/\1"|g' index.html
+            # Handle paths starting with /assets, /src, /vite, etc.
+            sed -i.bak 's|src="/\(assets\|src\|vite\)|src="/Mapas/\1|g' index.html
+            sed -i.bak 's|href="/\(assets\|src\|vite\)|href="/Mapas/\1|g' index.html
             # Remove backup file
             rm -f index.html.bak
             echo "✅ Fixed paths in index.html"
