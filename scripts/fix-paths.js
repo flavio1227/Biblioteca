@@ -1,8 +1,13 @@
-import { readFileSync, writeFileSync } from 'fs';
-import { join } from 'path';
+const { readFileSync, writeFileSync, existsSync } = require('fs');
+const { join } = require('path');
 
 const distPath = join(process.cwd(), 'dist');
 const indexPath = join(distPath, 'index.html');
+
+if (!existsSync(indexPath)) {
+  console.error('❌ index.html not found at:', indexPath);
+  process.exit(1);
+}
 
 try {
   let html = readFileSync(indexPath, 'utf-8');
@@ -21,6 +26,7 @@ try {
   }
 } catch (error) {
   console.error('❌ Error fixing paths:', error.message);
+  console.error(error.stack);
   process.exit(1);
 }
 
