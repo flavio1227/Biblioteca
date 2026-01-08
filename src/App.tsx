@@ -39,7 +39,7 @@ function App() {
       title: 'Concesiones Mineras',
       description: 'Visualización de áreas otorgadas en concesión para la exploración y explotación de recursos minerales en el territorio.',
       icon: <Mountain size={20} />,
-      url: 'about:blank',
+      url: 'https://qgiscloud.com/kcastillo/Mapa_Gestion_de_Derechos_Mineros1/?l=DERECHOS%20MINEROS%20OTORGADOS%20EXPLORAR%2CDERECHOS%20MINEROS%20OTORGADOS%20EXPLOTAR%2CPEQUE%C3%91A%20MINER%C3%8DA%20MET%C3%81LICA%20OTORGADA%20EXPLOTAR%2CZonas%20de%20reserva%20Minera%2CGeologico%5B65%5D%2CDEPARTAMENTOS%2COSM%20Standard!&t=Mapa_Gestion_de_Derechos_Mineros1&e=229880%2C1458199%2C952721%2C1796337',
       tables: [
         {
           title: 'Tabla de Concesiones Mineras',
@@ -53,7 +53,7 @@ function App() {
       title: 'Incidencias Mineralógicas',
       description: 'Registro georreferenciado de eventos, hallazgos y anomalías mineralógicas detectadas en el área de estudio.',
       icon: <AlertTriangle size={20} />,
-      url: 'about:blank',
+      url: 'https://qgiscloud.com/kcastillo/Mapa_Gestion_de_Derechos_Mineros1/?l=DERECHOS%20MINEROS%20OTORGADOS%20EXPLORAR%2CDERECHOS%20MINEROS%20OTORGADOS%20EXPLOTAR%2CPEQUE%C3%91A%20MINER%C3%8DA%20MET%C3%81LICA%20OTORGADA%20EXPLOTAR%2CZonas%20de%20reserva%20Minera%2CGeologico%5B65%5D%2CDEPARTAMENTOS%2COSM%20Standard!&t=Mapa_Gestion_de_Derechos_Mineros1&e=229880%2C1458199%2C952721%2C1796337',
       tables: [
         {
           title: 'Tabla de Incidencias Mineras',
@@ -67,7 +67,7 @@ function App() {
       title: 'Permisos de Minería Artesanal y Pequeña Minería',
       description: 'Mapa de autorizaciones y permisos otorgados para actividades de minería artesanal y pequeña minería.',
       icon: <Pickaxe size={20} />,
-      url: 'about:blank',
+      url: 'https://qgiscloud.com/kcastillo/Mapa_Gestion_de_Derechos_Mineros1/?l=DERECHOS%20MINEROS%20OTORGADOS%20EXPLORAR%2CDERECHOS%20MINEROS%20OTORGADOS%20EXPLOTAR%2CPEQUE%C3%91A%20MINER%C3%8DA%20MET%C3%81LICA%20OTORGADA%20EXPLOTAR%2CZonas%20de%20reserva%20Minera%2CGeologico%5B65%5D%2CDEPARTAMENTOS%2COSM%20Standard!&t=Mapa_Gestion_de_Derechos_Mineros1&e=229880%2C1458199%2C952721%2C1796337',
       tables: [
         {
           title: 'Tabla de Permisos de Minería Artesanal y Pequeña Minería',
@@ -77,7 +77,6 @@ function App() {
       ]
     }
   ];
-
   const currentMap = maps.find(m => m.id === activeMap)!;
 
   return (
