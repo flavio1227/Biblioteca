@@ -40,9 +40,12 @@ jobs:
         run: |
           cd dist
           if [ -f index.html ]; then
-            # Replace absolute paths with base path
-            sed -i 's|src="/|src="/Mapas/|g' index.html
-            sed -i 's|href="/|href="/Mapas/|g' index.html
+            # Replace absolute paths that don't already have /Mapas/ with base path
+            sed -i 's|src="/\([^M]|src="/Mapas/\1|g' index.html
+            sed -i 's|href="/\([^M]|href="/Mapas/\1|g' index.html
+            # Fix any remaining absolute paths (but not those starting with /Mapas/)
+            sed -i 's|src="/\([^/]|src="/Mapas/\1|g' index.html
+            sed -i 's|href="/\([^/]|href="/Mapas/\1|g' index.html
             echo "Fixed paths in index.html"
             cat index.html | grep -E "(src|href)" | head -5
           fi
