@@ -177,30 +177,31 @@ function App() {
                 loading="lazy"
               />
 
-              {/* Placeholder Overlay - Remove when real QGIS URLs are added */}
-              <div className="absolute inset-0 flex items-center justify-center border-2 border-dashed" style={{
-                backgroundColor: '#F5F7F3',
-                borderColor: 'rgba(30, 77, 43, 0.3)'
-              }}>
-                <div className="text-center px-6">
-                  <div className="w-16 h-16 mx-auto mb-4 rounded-full flex items-center justify-center" style={{
-                    backgroundColor: 'rgba(30, 77, 43, 0.1)'
-                  }}>
-                    <svg className="w-8 h-8" style={{ color: '#4C8C4A' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
-                    </svg>
+              {/* Placeholder Overlay - Only show if URL is about:blank */}
+              {currentMap.url === 'about:blank' && (
+                <div className="absolute inset-0 flex items-center justify-center border-2 border-dashed" style={{
+                  backgroundColor: '#F5F7F3',
+                  borderColor: 'rgba(30, 77, 43, 0.3)'
+                }}>
+                  <div className="text-center px-6">
+                    <div className="w-16 h-16 mx-auto mb-4 rounded-full flex items-center justify-center" style={{
+                      backgroundColor: 'rgba(30, 77, 43, 0.1)'
+                    }}>
+                      <svg className="w-8 h-8" style={{ color: '#4C8C4A' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
+                      </svg>
+                    </div>
+                    <h3 className="text-lg font-semibold mb-2" style={{ color: '#1E4D2B' }}>
+                      {currentMap.title}
+                    </h3>
+                    <p className="text-sm max-w-md" style={{ color: '#2F2F2F' }}>
+                      Configure la URL del mapa QGIS en el array <code className="px-2 py-1 rounded text-xs" style={{ backgroundColor: 'rgba(30, 77, 43, 0.1)' }}>maps</code> para el mapa "{currentMap.id}" para visualizar el contenido geoespacial.
+                    </p>
                   </div>
-                  <h3 className="text-lg font-semibold mb-2" style={{ color: '#1E4D2B' }}>
-                    {currentMap.title}
-                  </h3>
-                  <p className="text-sm max-w-md" style={{ color: '#2F2F2F' }}>
-                    Configure la URL del mapa QGIS en el array <code className="px-2 py-1 rounded text-xs" style={{ backgroundColor: 'rgba(30, 77, 43, 0.1)' }}>maps</code> para el mapa "{currentMap.id}" para visualizar el contenido geoespacial.
-                  </p>
                 </div>
-              </div>
+              )}
             </div>
           </div>
-
           {/* Data Tables Section */}
           {currentMap.tables && currentMap.tables.length > 0 && (
             <div className="px-6 pb-6" style={{ backgroundColor: '#F5F7F3' }}>
