@@ -36,25 +36,46 @@ jobs:
         env:
           NODE_ENV: production
       
+      - name: Debug build output
+        run: |
+          echo "📦 Build output structure:"
+          ls -la dist/ || echo "dist directory not found"
+          echo ""
+          if [ -f dist/index.html ]; then
+            echo "📄 Full index.html content:"
+            cat dist/index.html
+            echo ""
+            echo "📄 Searching for script tags:"
+            grep -E '<script' dist/index.html || echo "No script tags found"
+          fi
+      
       - name: Fix HTML paths
         run: |
           if [ -f dist/index.html ]; then
             cd dist
-            echo "📄 Checking original HTML..."
-            grep -E '(src|href)=' index.html | head -5 || echo "No src/href found"
+            echo "📄 Original HTML (first 100 chars of script tags):"
+            grep -oP '<script[^>]*>' index.html | head -3 || echo "No script tags found"
             echo ""
-            echo "🔧 Fixing paths..."
-            # Fix all absolute paths that don't start with /Mapas/
-            # Pattern: src="/something" -> src="/Mapas/something"
-            sed -i.bak 's|\(src\|href\)="/\([^"]*\)"|\1="/Mapas/\2"|g' index.html
+            echo "🔧 Fixing ALL paths..."
+            # Fix script src attributes - handle both quoted and unquoted
+            sed -i.bak 's|src="/\([^"]*\)"|src="/Mapas/\1"|g' index.html
+            sed -i.bak "s|src='/\([^']*\)'|src='/Mapas/\1'|g" index.html
+            sed -i.bak 's|src=\(/[^ >]*\)|src=/Mapas\1|g' index.html
+            # Fix link href attributes
+            sed -i.bak 's|href="/\([^"]*\)"|href="/Mapas/\1"|g' index.html
+            sed -i.bak "s|href='/\([^']*\)'|href='/Mapas/\1'|g" index.html
+            sed -i.bak 's|href=\(/[^ >]*\)|href=/Mapas\1|g' index.html
             # Fix any double /Mapas/Mapas/ that might have been created
             sed -i.bak 's|/Mapas/Mapas/|/Mapas/|g' index.html
             # Remove backup file
             rm -f index.html.bak
             echo ""
             echo "✅ Fixed paths in index.html"
-            echo "📄 Checking fixed HTML..."
-            grep -E '(src|href)=' index.html | head -5 || echo "No src/href found"
+            echo "📄 Fixed HTML (script tags):"
+            grep -oP '<script[^>]*>' index.html | head -3 || echo "No script tags found"
+            echo ""
+            echo "📄 Full fixed index.html:"
+            cat index.html
           else
             echo "⚠️ dist/index.html not found, skipping path fix"
           fi
