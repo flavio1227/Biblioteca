@@ -40,16 +40,21 @@ jobs:
         run: |
           if [ -f dist/index.html ]; then
             cd dist
-            # Fix absolute paths that don't already have /Mapas/
-            sed -i.bak 's|src="/\([^M][^"]*\)"|src="/Mapas/\1"|g' index.html
-            sed -i.bak 's|href="/\([^M][^"]*\)"|href="/Mapas/\1"|g' index.html
-            # Handle paths starting with /assets, /src, /vite, etc.
-            sed -i.bak 's|src="/\(assets\|src\|vite\)|src="/Mapas/\1|g' index.html
-            sed -i.bak 's|href="/\(assets\|src\|vite\)|href="/Mapas/\1|g' index.html
+            echo "📄 Checking original HTML..."
+            grep -E '(src|href)=' index.html | head -5 || echo "No src/href found"
+            echo ""
+            echo "🔧 Fixing paths..."
+            # Fix all absolute paths that don't start with /Mapas/
+            # Pattern: src="/something" -> src="/Mapas/something"
+            sed -i.bak 's|\(src\|href\)="/\([^"]*\)"|\1="/Mapas/\2"|g' index.html
+            # Fix any double /Mapas/Mapas/ that might have been created
+            sed -i.bak 's|/Mapas/Mapas/|/Mapas/|g' index.html
             # Remove backup file
             rm -f index.html.bak
+            echo ""
             echo "✅ Fixed paths in index.html"
-            grep -E '(src|href)=' index.html | head -3
+            echo "📄 Checking fixed HTML..."
+            grep -E '(src|href)=' index.html | head -5 || echo "No src/href found"
           else
             echo "⚠️ dist/index.html not found, skipping path fix"
           fi
