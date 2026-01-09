@@ -32,7 +32,13 @@ jobs:
         run: npm ci
       
       - name: Build
-        run: npm run build
+        run: |
+          echo "🔨 Building project..."
+          npm run build || {
+            echo "❌ Build failed!"
+            exit 1
+          }
+          echo "✅ Build completed"
         env:
           NODE_ENV: production
       
@@ -51,15 +57,26 @@ jobs:
       - name: Fix HTML paths
         run: |
           echo "🔧 Running path fix script..."
-          node scripts/fix-paths.mjs
-          echo ""
-          echo "📄 Verifying fixed HTML..."
           if [ -f dist/index.html ]; then
+            node scripts/fix-paths.mjs || {
+              echo "⚠️ Script failed, trying manual fix..."
+              cd dist
+              # Manual fallback fix
+              sed -i.bak 's|\(src\|href\)="/\([^"]*\)"|\1="/Biblioteca/\2"|g' index.html
+              sed -i.bak 's|/Biblioteca/Biblioteca/|/Biblioteca/|g' index.html
+              rm -f index.html.bak
+              echo "✅ Manual fix applied"
+            }
+            echo ""
+            echo "📄 Verifying fixed HTML..."
             echo "Script tags found:"
-            grep -oP '<script[^>]*src=["'"'"'][^"'"'"']+["'"'"'][^>]*>' dist/index.html || echo "No script tags with src found"
+            grep -E '<script[^>]*src=' index.html | head -3 || echo "No script tags with src found"
             echo ""
             echo "Link tags found:"
-            grep -oP '<link[^>]*href=["'"'"'][^"'"'"']+["'"'"'][^>]*>' dist/index.html || echo "No link tags with href found"
+            grep -E '<link[^>]*href=' index.html | head -3 || echo "No link tags with href found"
+          else
+            echo "❌ dist/index.html not found!"
+            exit 1
           fi
       
       - name: Copy 404.html
@@ -67,6 +84,18 @@ jobs:
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
+      
+      - name: Verify dist contents
+        run: |
+          echo "📦 Verifying dist contents..."
+          ls -la dist/ || exit 1
+          if [ ! -f dist/index.html ]; then
+            echo "❌ dist/index.html not found!"
+            exit 1
+          fi
+          echo "✅ dist/index.html exists"
+          echo "📄 Sample of index.html:"
+          head -20 dist/index.html
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
