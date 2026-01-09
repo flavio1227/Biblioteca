@@ -35,16 +35,16 @@ try {
   scriptRegex.lastIndex = 0;
   linkRegex.lastIndex = 0;
   
-  // Fix all absolute paths that don't start with /Mapas/
+  // Fix all absolute paths that don't start with /Biblioteca/
   html = html.replace(/(src|href)=["']\/([^"']+)["']/g, (match, attr, path) => {
-    if (!path.startsWith('Mapas/')) {
-      return `${attr}="/Mapas/${path}"`;
+    if (!path.startsWith('Biblioteca/')) {
+      return `${attr}="/Biblioteca/${path}"`;
     }
     return match;
   });
   
-  // Fix any double /Mapas/Mapas/
-  html = html.replace(/\/Mapas\/Mapas\//g, '/Mapas/');
+  // Fix any double /Biblioteca/Biblioteca/
+  html = html.replace(/\/Biblioteca\/Biblioteca\//g, '/Biblioteca/');
   
   writeFileSync(indexPath, html, 'utf-8');
   console.log('\n✅ Fixed paths in index.html\n');
@@ -63,4 +63,5 @@ try {
   console.error(error.stack);
   process.exit(1);
 }
+
 
