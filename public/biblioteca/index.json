@@ -5,28 +5,572 @@
       "title": "Biblioteca Jurídica",
       "children": [
         {
-          "type": "pdf",
-          "title": "Ley General de Minería",
-          "path": "Biblioteca Jurídica/ley_general_mineria.pdf"
-        },
-        {
-          "type": "pdf",
-          "title": "Reglamento Ambiental",
-          "path": "Biblioteca Jurídica/reglamento_ambiental.pdf"
-        },
-        {
           "type": "folder",
-          "title": "Normativa Municipal",
+          "title": "Acuerdos Ejecutivos",
           "children": [
             {
               "type": "pdf",
-              "title": "Ley de Autonomías",
-              "path": "Biblioteca Jurídica/Normativa Municipal/ley_autonomias.pdf"
+              "title": "Acuerdo Ejecutivo 02-01-2019 Pieza Separada de DAC y Producción Mensual",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/Acuerdo Ejecutivo 02-01-2019 Pieza Separada de DAC y Producción Mensual.pdf"
             },
             {
               "type": "pdf",
-              "title": "Estatuto Municipal",
-              "path": "Biblioteca Jurídica/Normativa Municipal/estatuto_municipal.pdf"
+              "title": "Acuerdo Ejecutivo 02-01-2019 y 22-02-2019 Pieza Separada de DAC y Protocolo para Solicitud de Muestra Sin Valor Comercial",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/Acuerdo Ejecutivo 02-01-2019 y 22-02-2019 Pieza Separada de DAC y Protocolo para Solicitud de Muestra Sin Valor Comercial.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Acuerdo Ejecutivo 034-2011 Reglamento de la Ley para la Simplificación de los Procedimientos de Invesión en Infraestructura Pública",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/Acuerdo Ejecutivo 034-2011 Reglamento de la Ley para la Simplificación de los Procedimientos de Invesión en Infraestructura Pública.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Acuerdo Ejecutivo 04-2017 Manual de Buenas Prácticas Ambientales Mineras para Etapa de Explotación",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/Acuerdo Ejecutivo 04-2017 Manual de Buenas Prácticas Ambientales Mineras para Etapa de Explotación.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Acuerdo Ejecutivo 07-05-2015 Clasificación de sustancias de Interés (Antiminio)",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/Acuerdo Ejecutivo 07-05-2015 Clasificación de sustancias de Interés (Antiminio).pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Acuerdo Ejecutivo 1-01-2020 Creacion Administracion Cartera y Cobranzas",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/Acuerdo Ejecutivo 1-01-2020 Creacion Administracion Cartera y Cobranzas.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Acuerdo Ejecutivo 14-2016 Aprobación de Formatos DAC",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/Acuerdo Ejecutivo 14-2016 Aprobación de Formatos DAC.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Acuerdo Ejecutivo 15-2016 Aprobación de Guía Técnica para Muestreo de Metales Preciosos",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/Acuerdo Ejecutivo 15-2016 Aprobación de Guía Técnica para Muestreo de Metales Preciosos.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Acuerdo Ejecutivo 15-2016 Guía Muestreo Metales Preciosos",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/Acuerdo Ejecutivo 15-2016 Guía Muestreo Metales Preciosos.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Acuerdo Ejecutivo 18-09-2021 -Tasas MAPE",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/Acuerdo Ejecutivo 18-09-2021 -Tasas MAPE.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Acuerdo Ejecutivo 19-02-2019 Creación Unidad de Modernización INHGEOMIN",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/Acuerdo Ejecutivo 19-02-2019 Creación Unidad de Modernización INHGEOMIN.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Acuerdo Ejecutivo 213 Modificación de Clasificación Óxido de Hierro y Antimonio",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/Acuerdo Ejecutivo 213 Modificación de Clasificación Óxido de Hierro y Antimonio.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Acuerdo Ejecutivo 22-02-2019 Protocolo Muestra Sin Valor Comercial",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/Acuerdo Ejecutivo 22-02-2019 Protocolo Muestra Sin Valor Comercial.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Acuerdo Ejecutivo DE- No. 07-2011 Acuerdo de Información Reservada",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/Acuerdo Ejecutivo DE- No. 07-2011 Acuerdo de Información Reservada.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Acuerdo Ejecutivo DE-01-2008 Manual Operativo DEFOMIN",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/Acuerdo Ejecutivo DE-01-2008 Manual Operativo DEFOMIN.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Acuerdo Ejecutivo DE-01-2008 Requisitos para el Otorgamiento de Concesiones Mineras",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/Acuerdo Ejecutivo DE-01-2008 Requisitos para el Otorgamiento de Concesiones Mineras.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Acuerdo Ejecutivo No. 0014-2009 SOPTRAVI",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/Acuerdo Ejecutivo No. 0014-2009 SOPTRAVI.PDF"
+            },
+            {
+              "type": "pdf",
+              "title": "Acuerdo Ejecutivo No. 005-2019 - Reformas al Reglamento del Sistema Nacional de Evaluación de Impacto Ambiental (SINEIA)",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/Acuerdo Ejecutivo No. 005-2019 - Reformas al Reglamento del Sistema Nacional de Evaluación de Impacto Ambiental (SINEIA).pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Acuerdo Ejecutivo No. 011-2017 Reglamento de Cierre de Minas",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/Acuerdo Ejecutivo No. 011-2017 Reglamento de Cierre de Minas.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Acuerdo Ejecutivo No. 088-B-2018 Reglamento MAPE",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/Acuerdo Ejecutivo No. 088-B-2018 Reglamento MAPE.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Acuerdo Ejecutivo No. 16-08-2023 Reglamento Caja Chica INHGEOMIN",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/Acuerdo Ejecutivo No. 16-08-2023 Reglamento Caja Chica INHGEOMIN.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Acuerdo Ejecutivo SIGEM",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/Acuerdo Ejecutivo SIGEM.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Acuerdo INHGEOMIN 01-01-2020 Creacion Administracion Cartera y Cobranzas",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/Acuerdo INHGEOMIN 01-01-2020 Creacion Administracion Cartera y Cobranzas.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "ACUERDO INHGEOMIN No. 022-05-2018 Creación Unidad de Prevencion y Resolucion de Conflictos Mineros",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/ACUERDO INHGEOMIN No. 022-05-2018 Creación Unidad de Prevencion y Resolucion de Conflictos Mineros.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "ACUERDO INHGEOMIN No. 064 09 2018  Creación Unidad MAPE",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/ACUERDO INHGEOMIN No. 064 09 2018  Creación Unidad MAPE.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "ACUERDO INHGEOMIN No. 17-01-2019 Modificacion Fuerza de Tarea Conflictos Mineros",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/ACUERDO INHGEOMIN No. 17-01-2019 Modificacion Fuerza de Tarea Conflictos Mineros.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Acuerdo Ministerial No. 0740-2019 - Rabla de Categorización Ambiental",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/Acuerdo Ministerial No. 0740-2019 - Rabla de Categorización Ambiental.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Acuerdo-SO-098-2019 Lineamientos de Archivo",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/Acuerdo-SO-098-2019 Lineamientos de Archivo.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Acuerrdo INHGEOMIN 059-09-2018 Creación de la Fuerza de Tarea Para resolver Conflictos Mineros",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/Acuerrdo INHGEOMIN 059-09-2018 Creación de la Fuerza de Tarea Para resolver Conflictos Mineros.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Anexos - Protocolo de Solicitud de Muestras Sin Valor Comercial",
+              "path": "Biblioteca Jurídica/Acuerdos Ejecutivos/Anexos - Protocolo de Solicitud de Muestras Sin Valor Comercial.pdf"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "title": "Circulares",
+          "children": [
+            {
+              "type": "pdf",
+              "title": "Circular CGG-771-2015 Política de uso de Correo Electrónico en instituciones del Gobierno de la República",
+              "path": "Biblioteca Jurídica/Circulares/Circular CGG-771-2015 Política de uso de Correo Electrónico en instituciones del Gobierno de la República.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Circular DE-INHGEOMIN-01-2015 Produccion Mensual",
+              "path": "Biblioteca Jurídica/Circulares/Circular DE-INHGEOMIN-01-2015 Produccion Mensual.pdf"
+            },
+            {
+              "type": "image",
+              "title": "Circular DE-INHGEOMIN-02-2015 Acuse de Recibo DAC",
+              "path": "Biblioteca Jurídica/Circulares/Circular DE-INHGEOMIN-02-2015 Acuse de Recibo DAC.jpg"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "title": "Decretos",
+          "children": [
+            {
+              "type": "pdf",
+              "title": "Decreto Ejecutivo 008-2012 EITI- Nombramiento del Dr. Herrera Cáceres",
+              "path": "Biblioteca Jurídica/Decretos/Decreto Ejecutivo 008-2012 EITI- Nombramiento del Dr. Herrera Cáceres.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Decreto Ejecutivo 126-2016 Convenio de Minamata sobre Mercurio",
+              "path": "Biblioteca Jurídica/Decretos/Decreto Ejecutivo 126-2016 Convenio de Minamata sobre Mercurio.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Decreto Ejecutivo No. 119-2008 Zonas Reservadas para Explotación de Ópalo - Erandique y San Andrés",
+              "path": "Biblioteca Jurídica/Decretos/Decreto Ejecutivo No. 119-2008 Zonas Reservadas para Explotación de Ópalo - Erandique y San Andrés.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Decreto Ejecutivo PCM 001-2017 Inventario de Bienes Nacionales",
+              "path": "Biblioteca Jurídica/Decretos/Decreto Ejecutivo PCM 001-2017 Inventario de Bienes Nacionales.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Decreto Ejecutivo PCM 008-2013 Creación de la EITI",
+              "path": "Biblioteca Jurídica/Decretos/Decreto Ejecutivo PCM 008-2013 Creación de la EITI.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Decreto Ejecutivo PCM 018 2016 Reforma de PCM 36-2014 Exclusión de Área de Reserva",
+              "path": "Biblioteca Jurídica/Decretos/Decreto Ejecutivo PCM 018 2016 Reforma de PCM 36-2014 Exclusión de Área de Reserva.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Decreto Ejecutivo PCM 042-2014 Adscripción ICF e INHGEOMIN a SERNA",
+              "path": "Biblioteca Jurídica/Decretos/Decreto Ejecutivo PCM 042-2014 Adscripción ICF e INHGEOMIN a SERNA.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Decreto Ejecutivo PCM 048-2017 Creación de la Secretaría de Energía",
+              "path": "Biblioteca Jurídica/Decretos/Decreto Ejecutivo PCM 048-2017 Creación de la Secretaría de Energía.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Decreto Ejecutivo PCM 23-2015 Zonas de Reserva Minera",
+              "path": "Biblioteca Jurídica/Decretos/Decreto Ejecutivo PCM 23-2015 Zonas de Reserva Minera.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Decreto Ejecutivo PCM-036-2019 y Acuerdo 019-2019 Procedimiento de Regularización de la Tenencia de Tierra",
+              "path": "Biblioteca Jurídica/Decretos/Decreto Ejecutivo PCM-036-2019 y Acuerdo 019-2019 Procedimiento de Regularización de la Tenencia de Tierra.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Decreto Ejecutivo PCM-039-2016 Estado de Emergencia Zona Cuculmeca",
+              "path": "Biblioteca Jurídica/Decretos/Decreto Ejecutivo PCM-039-2016 Estado de Emergencia Zona Cuculmeca.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Decreto Ejecutivo PCM-052-2016 Emergencia por Azolvamiento de Cauces de ríos y quebradas",
+              "path": "Biblioteca Jurídica/Decretos/Decreto Ejecutivo PCM-052-2016 Emergencia por Azolvamiento de Cauces de ríos y quebradas.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Decreto No. 52-2019 - Inversión Estratégica Honduras (INVEST-Honduras)",
+              "path": "Biblioteca Jurídica/Decretos/Decreto No. 52-2019 - Inversión Estratégica Honduras (INVEST-Honduras).pdf"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "title": "Formatos",
+          "children": [
+            {
+              "type": "word",
+              "title": "Formato - Pase de Salida Bienes",
+              "path": "Biblioteca Jurídica/Formatos/Formato - Pase de Salida Bienes.docx"
+            },
+            {
+              "type": "folder",
+              "title": "Formato de Entrega de Puesto",
+              "children": [
+                {
+                  "type": "image",
+                  "title": "MEMO 041-INSTRUCCION DE DIRECCION PARA ACTA DE ENTREGA DE PUESTO 001",
+                  "path": "Biblioteca Jurídica/Formatos/Formato de Entrega de Puesto/MEMO 041-INSTRUCCION DE DIRECCION PARA ACTA DE ENTREGA DE PUESTO 001.jpg"
+                }
+              ]
+            },
+            {
+              "type": "excel",
+              "title": "Formato de Vacaciones",
+              "path": "Biblioteca Jurídica/Formatos/Formato de Vacaciones.xlsx"
+            },
+            {
+              "type": "word",
+              "title": "Formato POA INHGEOMIN 2020",
+              "path": "Biblioteca Jurídica/Formatos/Formato POA INHGEOMIN 2020.docx"
+            },
+            {
+              "type": "folder",
+              "title": "Formatos Carné Institucional",
+              "children": [
+                {
+                  "type": "word",
+                  "title": "V 1.0 Formato de devolución de carné institucional RRHH-PGUCI-FL-02",
+                  "path": "Biblioteca Jurídica/Formatos/Formatos Carné Institucional/V 1.0 Formato de devolución de carné institucional RRHH-PGUCI-FL-02.docx"
+                },
+                {
+                  "type": "word",
+                  "title": "V 1.0 Formulario de Entrega de Carné Institucional RRHH-PGUCI-FL-01",
+                  "path": "Biblioteca Jurídica/Formatos/Formatos Carné Institucional/V 1.0 Formulario de Entrega de Carné Institucional RRHH-PGUCI-FL-01.docx"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "title": "Formatos de Inventario de Ejecución Física",
+              "children": [
+                {
+                  "type": "word",
+                  "title": "Formato 1.0 Inventario de Ejecución Mensual Programa 11",
+                  "path": "Biblioteca Jurídica/Formatos/Formatos de Inventario de Ejecución Física/Formato 1.0 Inventario de Ejecución Mensual Programa 11.docx"
+                },
+                {
+                  "type": "word",
+                  "title": "Formato 1.1 Inventario de Ejecución Mensual Programa 12",
+                  "path": "Biblioteca Jurídica/Formatos/Formatos de Inventario de Ejecución Física/Formato 1.1 Inventario de Ejecución Mensual Programa 12.docx"
+                },
+                {
+                  "type": "word",
+                  "title": "Formato 1.2 Inventario de Ejecución Mensual Programa 12",
+                  "path": "Biblioteca Jurídica/Formatos/Formatos de Inventario de Ejecución Física/Formato 1.2 Inventario de Ejecución Mensual Programa 12.docx"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "title": "Formatos de Registro y Evaluación de Empleados",
+              "children": [
+                {
+                  "type": "pdf",
+                  "title": "Formulario de Registro de Empleados",
+                  "path": "Biblioteca Jurídica/Formatos/Formatos de Registro y Evaluación de Empleados/Formulario de Registro de Empleados.pdf"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "title": "Formatos de Solicitud de Créditos - Préstamos",
+              "children": [
+                {
+                  "type": "pdf",
+                  "title": "SOLICITUD CREDITO VACACIONAL",
+                  "path": "Biblioteca Jurídica/Formatos/Formatos de Solicitud de Créditos - Préstamos/SOLICITUD CREDITO VACACIONAL.pdf"
+                },
+                {
+                  "type": "pdf",
+                  "title": "SOLICITUD PRESAMO PERSONAL",
+                  "path": "Biblioteca Jurídica/Formatos/Formatos de Solicitud de Créditos - Préstamos/SOLICITUD PRESAMO PERSONAL.pdf"
+                },
+                {
+                  "type": "pdf",
+                  "title": "SOLICITUD PRESTAMO SIN AVAL",
+                  "path": "Biblioteca Jurídica/Formatos/Formatos de Solicitud de Créditos - Préstamos/SOLICITUD PRESTAMO SIN AVAL.pdf"
+                },
+                {
+                  "type": "pdf",
+                  "title": "SOLICITUD PRESTAMO VIVIENDA",
+                  "path": "Biblioteca Jurídica/Formatos/Formatos de Solicitud de Créditos - Préstamos/SOLICITUD PRESTAMO VIVIENDA.pdf"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "title": "Formatos de Vacaciones y Pases de Salida",
+              "children": [
+                {
+                  "type": "pdf",
+                  "title": "Formato de Permiso de Salida a Empleados",
+                  "path": "Biblioteca Jurídica/Formatos/Formatos de Vacaciones y Pases de Salida/Formato de Permiso de Salida a Empleados.pdf"
+                },
+                {
+                  "type": "word",
+                  "title": "Formato de Permiso",
+                  "path": "Biblioteca Jurídica/Formatos/Formatos de Vacaciones y Pases de Salida/Formato de Permiso.docx"
+                },
+                {
+                  "type": "excel",
+                  "title": "Pase de Salida al IHSS",
+                  "path": "Biblioteca Jurídica/Formatos/Formatos de Vacaciones y Pases de Salida/Pase de Salida al IHSS.xlsx"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "title": "Formatos Declaración Jurada INHGEOMIN",
+              "children": [
+                {
+                  "type": "word",
+                  "title": "Declaración Jurada de Datos Personales",
+                  "path": "Biblioteca Jurídica/Formatos/Formatos Declaración Jurada INHGEOMIN/Declaración Jurada de Datos Personales.docx"
+                },
+                {
+                  "type": "word",
+                  "title": "Declaración Jurada de Juicios Pendientes",
+                  "path": "Biblioteca Jurídica/Formatos/Formatos Declaración Jurada INHGEOMIN/Declaración Jurada de Juicios Pendientes.docx"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "title": "Formatos Declaración Jurada TSC",
+              "children": [
+                {
+                  "type": "pdf",
+                  "title": "Formulario de Actualización 001 Declaración Jurada de Ingresos, Activos y Pasivos",
+                  "path": "Biblioteca Jurídica/Formatos/Formatos Declaración Jurada TSC/Formulario de Actualización 001 Declaración Jurada de Ingresos, Activos y Pasivos.pdf"
+                },
+                {
+                  "type": "pdf",
+                  "title": "Formulario de Actualización 002 Ascenso, Cambio de Puesto y Modificación de Sueldo",
+                  "path": "Biblioteca Jurídica/Formatos/Formatos Declaración Jurada TSC/Formulario de Actualización 002 Ascenso, Cambio de Puesto y Modificación de Sueldo.pdf"
+                },
+                {
+                  "type": "pdf",
+                  "title": "Formulario de Actualización 003 Actualización Anual",
+                  "path": "Biblioteca Jurídica/Formatos/Formatos Declaración Jurada TSC/Formulario de Actualización 003 Actualización Anual.pdf"
+                }
+              ]
+            },
+            {
+              "type": "word",
+              "title": "V 1.0  Formato de Registro De Inconsistencias Documentos Administrativos UDEM-RIDA-FR 01 ",
+              "path": "Biblioteca Jurídica/Formatos/V 1.0  Formato de Registro De Inconsistencias Documentos Administrativos UDEM-RIDA-FR 01 .docx"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "title": "Leyes",
+          "children": [
+            {
+              "type": "pdf",
+              "title": "Decreto Legislativo No. 109-2019 Reformas Ley de Mineria",
+              "path": "Biblioteca Jurídica/Leyes/Decreto Legislativo No. 109-2019 Reformas Ley de Mineria.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Decreto-135-2020-1",
+              "path": "Biblioteca Jurídica/Leyes/Decreto-135-2020-1.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Decreto-Legislativo-No.-109-2019-Reformas-Ley-de-Miner",
+              "path": "Biblioteca Jurídica/Leyes/Decreto-Legislativo-No.-109-2019-Reformas-Ley-de-Miner.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Gaceta Sentencia Inconstitucionalidad Ley General de Minería",
+              "path": "Biblioteca Jurídica/Leyes/Gaceta Sentencia Inconstitucionalidad Ley General de Minería.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Ley de Procedimiento Administrativo - Decreto No. 152-87",
+              "path": "Biblioteca Jurídica/Leyes/Ley de Procedimiento Administrativo - Decreto No. 152-87.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Ley de Procedimiento Administrativo Decreto 152-87",
+              "path": "Biblioteca Jurídica/Leyes/Ley de Procedimiento Administrativo Decreto 152-87.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Ley de Promocion a la Generacion de Energía Eléctrica con Recursos Renovables - Decreto No. 70-2007",
+              "path": "Biblioteca Jurídica/Leyes/Ley de Promocion a la Generacion de Energía Eléctrica con Recursos Renovables - Decreto No. 70-2007.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Ley de Protección del Patrimonio Cultural Decreto 220-97",
+              "path": "Biblioteca Jurídica/Leyes/Ley de Protección del Patrimonio Cultural Decreto 220-97.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Ley de Transparencia y Acceso a la Información Pública",
+              "path": "Biblioteca Jurídica/Leyes/Ley de Transparencia y Acceso a la Información Pública.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Ley Especial para la Simplificación de los Procedimientos de Inversión en Infraestructura Pública",
+              "path": "Biblioteca Jurídica/Leyes/Ley Especial para la Simplificación de los Procedimientos de Inversión en Infraestructura Pública.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Ley General de Aguas 2009",
+              "path": "Biblioteca Jurídica/Leyes/Ley General de Aguas 2009.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Ley General de la Administración Pública - Decreto No. 146-86",
+              "path": "Biblioteca Jurídica/Leyes/Ley General de la Administración Pública - Decreto No. 146-86.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Ley General de Minería - Decreto 238-2012",
+              "path": "Biblioteca Jurídica/Leyes/Ley General de Minería - Decreto 238-2012.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Ley para Optimizar la Administración Pública Decreto-266-2014",
+              "path": "Biblioteca Jurídica/Leyes/Ley para Optimizar la Administración Pública Decreto-266-2014.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Recurso de Insconstitucionaldad Ley de Minería No. SCO-1165-2014",
+              "path": "Biblioteca Jurídica/Leyes/Recurso de Insconstitucionaldad Ley de Minería No. SCO-1165-2014.pdf"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "title": "Reglamentos",
+          "children": [
+            {
+              "type": "pdf",
+              "title": "Acuerdo-Ejecutivo-No.-011-2017-Reglamento-de-Cierre-de-Minas",
+              "path": "Biblioteca Jurídica/Reglamentos/Acuerdo-Ejecutivo-No.-011-2017-Reglamento-de-Cierre-de-Minas.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Decreto-PCM-008-97 Reglamento-Organizacion-Competencias- Poder-Ejecutivo",
+              "path": "Biblioteca Jurídica/Reglamentos/Decreto-PCM-008-97 Reglamento-Organizacion-Competencias- Poder-Ejecutivo.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Reforma a  la Ley General del Ambiente, Decreto 181-2007 y 47-2010",
+              "path": "Biblioteca Jurídica/Reglamentos/Reforma a  la Ley General del Ambiente, Decreto 181-2007 y 47-2010.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Reglamento de la  Ley General de Minería ",
+              "path": "Biblioteca Jurídica/Reglamentos/Reglamento de la  Ley General de Minería .pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Reglamento de la Ley de Regularización de Precios de Transferencia Acuerdo No. 027-2015",
+              "path": "Biblioteca Jurídica/Reglamentos/Reglamento de la Ley de Regularización de Precios de Transferencia Acuerdo No. 027-2015.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Reglamento de Sanciones por Infracción a la Ley de Acceso de Información Pública - Acuerdo SE-007-2014",
+              "path": "Biblioteca Jurídica/Reglamentos/Reglamento de Sanciones por Infracción a la Ley de Acceso de Información Pública - Acuerdo SE-007-2014.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Reglamento de SINEIA",
+              "path": "Biblioteca Jurídica/Reglamentos/Reglamento de SINEIA.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Reglamento de Viáticos y Otros Gastos del Viaje - Acuerdo Ejecutivo 0696-2008",
+              "path": "Biblioteca Jurídica/Reglamentos/Reglamento de Viáticos y Otros Gastos del Viaje - Acuerdo Ejecutivo 0696-2008.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Reglamento Especial de Seguridad y Salud Ocupacional en la Actividad Minera de Honduras Acuerdo Ejecutivo 002-2017",
+              "path": "Biblioteca Jurídica/Reglamentos/Reglamento Especial de Seguridad y Salud Ocupacional en la Actividad Minera de Honduras Acuerdo Ejecutivo 002-2017.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Reglamento-Especial-para-la-Mineria-Artesanal-y-la-Pequena-Mineria",
+              "path": "Biblioteca Jurídica/Reglamentos/Reglamento-Especial-para-la-Mineria-Artesanal-y-la-Pequena-Mineria.pdf"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "title": "Resoluciones",
+          "children": [
+            {
+              "type": "pdf",
+              "title": "GACETA Resolución DE-04-10-2014 Cambio de Sistema de Coordenadas",
+              "path": "Biblioteca Jurídica/Resoluciones/GACETA Resolución DE-04-10-2014 Cambio de Sistema de Coordenadas.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Resolución DE 04-10-2014 - Cambio de Sistema de Coordenadas",
+              "path": "Biblioteca Jurídica/Resoluciones/Resolución DE 04-10-2014 - Cambio de Sistema de Coordenadas.pdf"
             }
           ]
         }
@@ -37,19 +581,744 @@
       "title": "Biblioteca Técnica",
       "children": [
         {
-          "type": "pdf",
-          "title": "Manual de Operaciones Mineras",
-          "path": "Biblioteca Técnica/manual_operaciones_mineras.pdf"
+          "type": "folder",
+          "title": "Geologia",
+          "children": [
+            {
+              "type": "folder",
+              "title": "Amenazas  Geológicas",
+              "children": [
+                {
+                  "type": "pdf",
+                  "title": "Colon fold belt of Honduras Evidence for Late Cretaceous collision between the continental Chortis block",
+                  "path": "Biblioteca Técnica/Geologia/Amenazas  Geológicas/Colon fold belt of Honduras Evidence for Late Cretaceous collision between the continental Chortis block.pdf"
+                },
+                {
+                  "type": "pdf",
+                  "title": "Deslizamientos de tierra provocados por el Huracan Mitch, Tegucigalpa",
+                  "path": "Biblioteca Técnica/Geologia/Amenazas  Geológicas/Deslizamientos de tierra provocados por el Huracan Mitch, Tegucigalpa.pdf"
+                },
+                {
+                  "type": "pdf",
+                  "title": "Estudios sismotectonicos y riesgo sismico en Honduras",
+                  "path": "Biblioteca Técnica/Geologia/Amenazas  Geológicas/Estudios sismotectonicos y riesgo sismico en Honduras.pdf"
+                },
+                {
+                  "type": "pdf",
+                  "title": "Evaluación de la amenaza sísmica en Honduras",
+                  "path": "Biblioteca Técnica/Geologia/Amenazas  Geológicas/Evaluación de la amenaza sísmica en Honduras.pdf"
+                },
+                {
+                  "type": "pdf",
+                  "title": "Inventario Digital de Deslizamientos de Tierra y Depósitos Associados",
+                  "path": "Biblioteca Técnica/Geologia/Amenazas  Geológicas/Inventario Digital de Deslizamientos de Tierra y Depósitos Associados.pdf"
+                },
+                {
+                  "type": "pdf",
+                  "title": "Jurassic-Recent tectonic and stratigraphic history of the Chortis block",
+                  "path": "Biblioteca Técnica/Geologia/Amenazas  Geológicas/Jurassic-Recent tectonic and stratigraphic history of the Chortis block.pdf"
+                },
+                {
+                  "type": "pdf",
+                  "title": "Mapa deslizamientos- Tegucigalpa-2024",
+                  "path": "Biblioteca Técnica/Geologia/Amenazas  Geológicas/Mapa deslizamientos- Tegucigalpa-2024.pdf"
+                },
+                {
+                  "type": "image",
+                  "title": "Mapa deslizamientos- Tegucigalpa-2024",
+                  "path": "Biblioteca Técnica/Geologia/Amenazas  Geológicas/Mapa deslizamientos- Tegucigalpa-2024.tif"
+                },
+                {
+                  "type": "pdf",
+                  "title": "Proyecto Amenaza Sismica en Centroamerica",
+                  "path": "Biblioteca Técnica/Geologia/Amenazas  Geológicas/Proyecto Amenaza Sismica en Centroamerica.pdf"
+                },
+                {
+                  "type": "pdf",
+                  "title": "Tectonic terranes of the Chortis block",
+                  "path": "Biblioteca Técnica/Geologia/Amenazas  Geológicas/Tectonic terranes of the Chortis block.pdf"
+                },
+                {
+                  "type": "pdf",
+                  "title": "The Padre Miguel Ignimbrite Suite, central Honduras Paleomagnetism,",
+                  "path": "Biblioteca Técnica/Geologia/Amenazas  Geológicas/The Padre Miguel Ignimbrite Suite, central Honduras Paleomagnetism,.pdf"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "title": "Geologia General",
+              "children": [
+                {
+                  "type": "word",
+                  "title": "Aspectos Relevantes de la Geología Hondureña",
+                  "path": "Biblioteca Técnica/Geologia/Geologia General/Aspectos Relevantes de la Geología Hondureña.doc"
+                },
+                {
+                  "type": "word",
+                  "title": "Estratigrafia de la Era Mesozoica en Honduras",
+                  "path": "Biblioteca Técnica/Geologia/Geologia General/Estratigrafia de la Era Mesozoica en Honduras.docx"
+                },
+                {
+                  "type": "pdf",
+                  "title": "Estratigrafía de Honduras",
+                  "path": "Biblioteca Técnica/Geologia/Geologia General/Estratigrafía de Honduras.pdf"
+                },
+                {
+                  "type": "pdf",
+                  "title": "Geologia - Manual de Identificacion de Rocas y Minerales",
+                  "path": "Biblioteca Técnica/Geologia/Geologia General/Geologia - Manual de Identificacion de Rocas y Minerales.pdf"
+                },
+                {
+                  "type": "pdf",
+                  "title": "Geomorfología del Valle de Copán, Honduras",
+                  "path": "Biblioteca Técnica/Geologia/Geologia General/Geomorfología del Valle de Copán, Honduras.pdf"
+                },
+                {
+                  "type": "image",
+                  "title": "Mapa Digital Geologic Map of Honduras",
+                  "path": "Biblioteca Técnica/Geologia/Geologia General/Mapa Digital Geologic Map of Honduras.jpg"
+                },
+                {
+                  "type": "image",
+                  "title": "Mapa Geologico de Honduras (escaneado alta resolucion parte 1)",
+                  "path": "Biblioteca Técnica/Geologia/Geologia General/Mapa Geologico de Honduras (escaneado alta resolucion parte 1).tif"
+                },
+                {
+                  "type": "image",
+                  "title": "Mapa Geologico de Honduras (escaneado alta resolucion parte 2)",
+                  "path": "Biblioteca Técnica/Geologia/Geologia General/Mapa Geologico de Honduras (escaneado alta resolucion parte 2).TIF"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "title": "Geotermia",
+              "children": [
+                {
+                  "type": "pdf",
+                  "title": "Geology of Honduran Geothermal Sites",
+                  "path": "Biblioteca Técnica/Geologia/Geotermia/Geology of Honduran Geothermal Sites.pdf"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "title": "Paleontología",
+              "children": [
+                {
+                  "type": "pdf",
+                  "title": "El gonfoterio de “Tambla” (Humuya, Honduras)",
+                  "path": "Biblioteca Técnica/Geologia/Paleontología/El gonfoterio de “Tambla” (Humuya, Honduras).pdf"
+                },
+                {
+                  "type": "pdf",
+                  "title": "Hallazgo de Mammut Americanum; San Pedro Sula Honduras",
+                  "path": "Biblioteca Técnica/Geologia/Paleontología/Hallazgo de Mammut Americanum; San Pedro Sula Honduras.pdf"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "title": "Recursos Hidrológicos e hidrogeológicos",
+              "children": [
+                {
+                  "type": "pdf",
+                  "title": "Caracterización Hidrogeológica Guaymitas",
+                  "path": "Biblioteca Técnica/Geologia/Recursos Hidrológicos e hidrogeológicos/Caracterización Hidrogeológica Guaymitas.pdf"
+                },
+                {
+                  "type": "pdf",
+                  "title": "COMPOSIZIONE DELLE ROCCE E QUALITA’ DELLE ACQUE",
+                  "path": "Biblioteca Técnica/Geologia/Recursos Hidrológicos e hidrogeológicos/COMPOSIZIONE DELLE ROCCE E QUALITA’ DELLE ACQUE.pdf"
+                },
+                {
+                  "type": "pdf",
+                  "title": "Mapa Hidrogeológico de Honduras",
+                  "path": "Biblioteca Técnica/Geologia/Recursos Hidrológicos e hidrogeológicos/Mapa Hidrogeológico de Honduras.pdf"
+                },
+                {
+                  "type": "pdf",
+                  "title": "Propiedades Hidrogeoquímicas e Isotópicas de la Cuenca del rio Tulian, Puerto Cortés.",
+                  "path": "Biblioteca Técnica/Geologia/Recursos Hidrológicos e hidrogeológicos/Propiedades Hidrogeoquímicas e Isotópicas de la Cuenca del rio Tulian, Puerto Cortés..pdf"
+                },
+                {
+                  "type": "pdf",
+                  "title": "Vol-1_Estudio Hidrogeologico Jamastran",
+                  "path": "Biblioteca Técnica/Geologia/Recursos Hidrológicos e hidrogeológicos/Vol-1_Estudio Hidrogeologico Jamastran.pdf"
+                },
+                {
+                  "type": "pdf",
+                  "title": "Vol-2_Vol-1_Estudio Hidrogeologico Jamastran",
+                  "path": "Biblioteca Técnica/Geologia/Recursos Hidrológicos e hidrogeológicos/Vol-2_Vol-1_Estudio Hidrogeologico Jamastran.pdf"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "title": "Recursos Minerales",
+              "children": [
+                {
+                  "type": "word",
+                  "title": "Cartillas de rotulación de muestras",
+                  "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Cartillas de rotulación de muestras.doc"
+                },
+                {
+                  "type": "word",
+                  "title": "Cinabrio en Honduras",
+                  "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Cinabrio en Honduras.docx"
+                },
+                {
+                  "type": "folder",
+                  "title": "Fichas de Ocurrencias Mineras",
+                  "children": [
+                    {
+                      "type": "word",
+                      "title": "FOM 045 (A,B,C,I,G,H,J,)",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM 045 (A,B,C,I,G,H,J,).doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 002",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 002.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 007",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 007.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 009",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 009.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 010",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 010.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 011",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 011.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 012",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 012.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 013",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 013.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 014",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 014.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 015",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 015.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 016",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 016.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 019",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 019.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 021",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 021.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 024",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 024.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 027",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 027.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 028",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 028.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 030",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 030.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 031",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 031.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 032",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 032.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 033",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 033.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 034",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 034.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 035",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 035.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 036",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 036.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 037",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 037.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 038",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 038.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 039",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 039.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 040",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 040.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 041",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 041.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 042",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 042.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 043",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 043.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 044",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 044.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 045 (A,B,C,I,G,H,J, k)",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 045 (A,B,C,I,G,H,J, k).doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 046",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 046.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 047",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 047.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 048",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 048.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 051",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 051.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 052",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 052.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 053",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 053.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 054",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 054.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 055",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 055.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 056",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 056.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 058",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 058.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 060",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 060.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 062",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 062.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 065",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 065.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 066",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 066.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 067",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 067.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 069",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 069.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 070",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 070.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 072",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 072.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 073",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 073.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 075",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 075.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 076",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 076.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 079",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 079.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 080",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 080.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 081",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 081.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 082",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 082.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 083",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 083.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 084",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 084.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 085",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 085.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 087",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 087.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 088",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 088.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 089",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 089.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 091",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 091.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 093",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 093.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 094",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 094.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 095",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 095.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 096",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 096.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 097",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 097.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 099",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 099.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 101",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 101.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 101",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 101.docx"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 102",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 102.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 103",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 103.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 105",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 105.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 106",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 106.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 107",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 107.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 109",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 109.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 110",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 110.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 111",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 111.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 112",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 112.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 113",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 113.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 114",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 114.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 117",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 117.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 119",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 119.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 120",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 120.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 122",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 122.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 132",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 132.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 135",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 135.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 142",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 142.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 144",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 144.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 145",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 145.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 147",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 147.doc"
+                    },
+                    {
+                      "type": "word",
+                      "title": "FOM I 148",
+                      "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Fichas de Ocurrencias Mineras/FOM I 148.doc"
+                    }
+                  ]
+                },
+                {
+                  "type": "excel",
+                  "title": "Lista de ficha de ocurrencias mineras",
+                  "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Lista de ficha de ocurrencias mineras.xls"
+                },
+                {
+                  "type": "pdf",
+                  "title": "Listado de Minerales no Metalicos",
+                  "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Listado de Minerales no Metalicos.pdf"
+                },
+                {
+                  "type": "pdf",
+                  "title": "Los Minerales Olvidados de Honduras",
+                  "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Los Minerales Olvidados de Honduras.pdf"
+                },
+                {
+                  "type": "pdf",
+                  "title": "Mineral Deposits of Central America",
+                  "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Mineral Deposits of Central America.pdf"
+                },
+                {
+                  "type": "excel",
+                  "title": "Minerales No metalicos-Metalicos-Gemas o piedras preciosas",
+                  "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Minerales No metalicos-Metalicos-Gemas o piedras preciosas.xlsx"
+                },
+                {
+                  "type": "pdf",
+                  "title": "Preliminary Bibliography Of The Geology And Mineral Deposits Of Honduras",
+                  "path": "Biblioteca Técnica/Geologia/Recursos Minerales/Preliminary Bibliography Of The Geology And Mineral Deposits Of Honduras.pdf"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "title": "Vulcanología",
+              "children": [
+                {
+                  "type": "pdf",
+                  "title": "Volcanism and Geochemistry in Central America",
+                  "path": "Biblioteca Técnica/Geologia/Vulcanología/Volcanism and Geochemistry in Central America.pdf"
+                },
+                {
+                  "type": "pdf",
+                  "title": "volcanismo y sismicidad",
+                  "path": "Biblioteca Técnica/Geologia/Vulcanología/volcanismo y sismicidad.pdf"
+                }
+              ]
+            }
+          ]
         },
         {
-          "type": "pdf",
-          "title": "Guía de Seguridad Industrial",
-          "path": "Biblioteca Técnica/guia_seguridad_industrial.pdf"
-        },
-        {
-          "type": "pdf",
-          "title": "Normas de Calidad",
-          "path": "Biblioteca Técnica/normas_calidad.pdf"
+          "type": "folder",
+          "title": "Mineria",
+          "children": [
+            {
+              "type": "pdf",
+              "title": "Bases-Metodologicas-Patrimonio-Geologico-Minero",
+              "path": "Biblioteca Técnica/Mineria/Bases-Metodologicas-Patrimonio-Geologico-Minero.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Glosario técnico en materia de pasivos ambientales mineros",
+              "path": "Biblioteca Técnica/Mineria/Glosario técnico en materia de pasivos ambientales mineros.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Manual para el inventario de Pasivos Ambientales Mineros",
+              "path": "Biblioteca Técnica/Mineria/Manual para el inventario de Pasivos Ambientales Mineros.pdf"
+            },
+            {
+              "type": "excel",
+              "title": "Tabla-valoracion-Bases-Metodologicas-Patrimonio-Geologico-Minero",
+              "path": "Biblioteca Técnica/Mineria/Tabla-valoracion-Bases-Metodologicas-Patrimonio-Geologico-Minero.xlsx"
+            }
+          ]
         }
       ]
     },
@@ -58,19 +1327,24 @@
       "title": "Plantillas",
       "children": [
         {
-          "type": "pdf",
-          "title": "Plantilla de Informe Mensual",
-          "path": "Plantillas/plantilla_informe_mensual.pdf"
+          "type": "image",
+          "title": "Logo_SIGEM2-removebg-preview (1)",
+          "path": "Plantillas/Logo_SIGEM2-removebg-preview (1).png"
         },
         {
-          "type": "pdf",
-          "title": "Plantilla de Solicitud de Permiso",
-          "path": "Plantillas/plantilla_solicitud_permiso.pdf"
+          "type": "image",
+          "title": "SIGEM-Fondo- Verde8",
+          "path": "Plantillas/SIGEM-Fondo- Verde8.jpg"
         },
         {
-          "type": "pdf",
-          "title": "Plantilla de Acta de Reunión",
-          "path": "Plantillas/plantilla_acta_reunion.pdf"
+          "type": "image",
+          "title": "topomin_1",
+          "path": "Plantillas/topomin_1.jpg"
+        },
+        {
+          "type": "image",
+          "title": "topomin_1",
+          "path": "Plantillas/topomin_1.svg"
         }
       ]
     },
@@ -79,72 +1353,242 @@
       "title": "Procedimientos Municipales Mineros",
       "children": [
         {
-          "type": "pdf",
-          "title": "Procedimiento de Registro",
-          "path": "Procedimientos Municipales Mineros/procedimiento_registro.pdf"
+          "type": "folder",
+          "title": "Adjudicación de Área de Minería Artesanal",
+          "children": [
+            {
+              "type": "pdf",
+              "title": "1.Ficha Descripción del Trámite ",
+              "path": "Procedimientos Municipales Mineros/Adjudicación de Área de Minería Artesanal/1.Ficha Descripción del Trámite .pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "2.Formulario Solicitud de Adjudicación de Área",
+              "path": "Procedimientos Municipales Mineros/Adjudicación de Área de Minería Artesanal/2.Formulario Solicitud de Adjudicación de Área.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "3. Formato de Declaración Jurada",
+              "path": "Procedimientos Municipales Mineros/Adjudicación de Área de Minería Artesanal/3. Formato de Declaración Jurada.pdf"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "title": "Adjudicación de Área para Pequeña Minería No Metálica",
+          "children": [
+            {
+              "type": "pdf",
+              "title": "1.Ficha Descripción del Trámite ",
+              "path": "Procedimientos Municipales Mineros/Adjudicación de Área para Pequeña Minería No Metálica/1.Ficha Descripción del Trámite .pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "2.Formulario Solicitud de Adjudicación de Área Pequeña Minería No Metálica",
+              "path": "Procedimientos Municipales Mineros/Adjudicación de Área para Pequeña Minería No Metálica/2.Formulario Solicitud de Adjudicación de Área Pequeña Minería No Metálica.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "3.Formato de Declaración Jurada",
+              "path": "Procedimientos Municipales Mineros/Adjudicación de Área para Pequeña Minería No Metálica/3.Formato de Declaración Jurada.pdf"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "title": "Constancias Electronicas",
+          "children": [
+            {
+              "type": "pdf",
+              "title": "V.1.0-  Ficha tramite Constancias Electronicas",
+              "path": "Procedimientos Municipales Mineros/Constancias Electronicas/V.1.0-  Ficha tramite Constancias Electronicas.pdf"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "title": "Denuncia Minera",
+          "children": [
+            {
+              "type": "pdf",
+              "title": "Ficha descripción Trámite- Denuncia Minera",
+              "path": "Procedimientos Municipales Mineros/Denuncia Minera/Ficha descripción Trámite- Denuncia Minera.pdf"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "title": "Formalización de Grupos de Mujeres Mineras",
+          "children": [
+            {
+              "type": "pdf",
+              "title": "V-1.0-Tramite-Formalizacion-de-Empresas-Mujeres-DUPAI-21",
+              "path": "Procedimientos Municipales Mineros/Formalización de Grupos de Mujeres Mineras/V-1.0-Tramite-Formalizacion-de-Empresas-Mujeres-DUPAI-21.pdf"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "title": "Pago de Canon Territorial",
+          "children": [
+            {
+              "type": "pdf",
+              "title": "V-1.0 ABC del canon territorial DUPAI-CT-GU-1",
+              "path": "Procedimientos Municipales Mineros/Pago de Canon Territorial/V-1.0 ABC del canon territorial DUPAI-CT-GU-1.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "V-1.0 Ficha Tramite Pago de Canon Territorial DUPAI-CT-PC-39",
+              "path": "Procedimientos Municipales Mineros/Pago de Canon Territorial/V-1.0 Ficha Tramite Pago de Canon Territorial DUPAI-CT-PC-39.pdf"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "title": "Templates",
+          "children": [
+            {
+              "type": "other",
+              "title": "Business model canvas",
+              "path": "Procedimientos Municipales Mineros/Templates/Business model canvas.odg"
+            },
+            {
+              "type": "excel",
+              "title": "Business model canvas",
+              "path": "Procedimientos Municipales Mineros/Templates/Business model canvas.ods"
+            },
+            {
+              "type": "excel",
+              "title": "Diagram & table",
+              "path": "Procedimientos Municipales Mineros/Templates/Diagram & table.ods"
+            },
+            {
+              "type": "powerpoint",
+              "title": "Elegant",
+              "path": "Procedimientos Municipales Mineros/Templates/Elegant.odp"
+            },
+            {
+              "type": "excel",
+              "title": "Expense report",
+              "path": "Procedimientos Municipales Mineros/Templates/Expense report.ods"
+            },
+            {
+              "type": "other",
+              "title": "Flowchart",
+              "path": "Procedimientos Municipales Mineros/Templates/Flowchart.odg"
+            },
+            {
+              "type": "powerpoint",
+              "title": "Gotong royong",
+              "path": "Procedimientos Municipales Mineros/Templates/Gotong royong.odp"
+            },
+            {
+              "type": "other",
+              "title": "Invoice",
+              "path": "Procedimientos Municipales Mineros/Templates/Invoice.odt"
+            },
+            {
+              "type": "other",
+              "title": "Letter",
+              "path": "Procedimientos Municipales Mineros/Templates/Letter.odt"
+            },
+            {
+              "type": "other",
+              "title": "Meeting notes",
+              "path": "Procedimientos Municipales Mineros/Templates/Meeting notes.md"
+            },
+            {
+              "type": "other",
+              "title": "Mindmap",
+              "path": "Procedimientos Municipales Mineros/Templates/Mindmap.odg"
+            },
+            {
+              "type": "powerpoint",
+              "title": "Modern company",
+              "path": "Procedimientos Municipales Mineros/Templates/Modern company.odp"
+            },
+            {
+              "type": "other",
+              "title": "Mother's day",
+              "path": "Procedimientos Municipales Mineros/Templates/Mother's day.odt"
+            },
+            {
+              "type": "other",
+              "title": "Org chart",
+              "path": "Procedimientos Municipales Mineros/Templates/Org chart.odg"
+            },
+            {
+              "type": "other",
+              "title": "Party invitation",
+              "path": "Procedimientos Municipales Mineros/Templates/Party invitation.odt"
+            },
+            {
+              "type": "other",
+              "title": "Photo book",
+              "path": "Procedimientos Municipales Mineros/Templates/Photo book.odt"
+            },
+            {
+              "type": "other",
+              "title": "Product plan",
+              "path": "Procedimientos Municipales Mineros/Templates/Product plan.md"
+            },
+            {
+              "type": "other",
+              "title": "Readme",
+              "path": "Procedimientos Municipales Mineros/Templates/Readme.md"
+            },
+            {
+              "type": "other",
+              "title": "Resume",
+              "path": "Procedimientos Municipales Mineros/Templates/Resume.odt"
+            },
+            {
+              "type": "powerpoint",
+              "title": "Simple",
+              "path": "Procedimientos Municipales Mineros/Templates/Simple.odp"
+            },
+            {
+              "type": "other",
+              "title": "Syllabus",
+              "path": "Procedimientos Municipales Mineros/Templates/Syllabus.odt"
+            },
+            {
+              "type": "excel",
+              "title": "Timesheet",
+              "path": "Procedimientos Municipales Mineros/Templates/Timesheet.ods"
+            },
+            {
+              "type": "powerpoint",
+              "title": "Yellow idea",
+              "path": "Procedimientos Municipales Mineros/Templates/Yellow idea.odp"
+            }
+          ]
         },
         {
           "type": "pdf",
-          "title": "Procedimiento de Inspección",
-          "path": "Procedimientos Municipales Mineros/procedimiento_inspeccion.pdf"
+          "title": "V-1.2-DUPAI-INHGEOMIN",
+          "path": "Procedimientos Municipales Mineros/V-1.2-DUPAI-INHGEOMIN.pdf"
         },
         {
-          "type": "pdf",
-          "title": "Procedimiento de Sanciones",
-          "path": "Procedimientos Municipales Mineros/procedimiento_sanciones.pdf"
-        }
-      ]
-    },
-    {
-      "type": "folder",
-      "title": "Reportes Anuales Municipales",
-      "children": [
-        {
-          "type": "pdf",
-          "title": "Reporte Anual 2023",
-          "path": "Reportes Anuales Municipales/reporte_anual_2023.pdf"
-        },
-        {
-          "type": "pdf",
-          "title": "Reporte Anual 2022",
-          "path": "Reportes Anuales Municipales/reporte_anual_2022.pdf"
-        },
-        {
-          "type": "pdf",
-          "title": "Reporte Anual 2021",
-          "path": "Reportes Anuales Municipales/reporte_anual_2021.pdf"
-        }
-      ]
-    },
-    {
-      "type": "folder",
-      "title": "sincro",
-      "children": [
-        {
-          "type": "pdf",
-          "title": "Manual de Sincronización",
-          "path": "sincro/manual_sincronizacion.pdf"
-        },
-        {
-          "type": "pdf",
-          "title": "Protocolo de Datos",
-          "path": "sincro/protocolo_datos.pdf"
-        }
-      ]
-    },
-    {
-      "type": "folder",
-      "title": "Talk",
-      "children": [
-        {
-          "type": "pdf",
-          "title": "Actas de Reuniones 2023",
-          "path": "Talk/actas_reuniones_2023.pdf"
-        },
-        {
-          "type": "pdf",
-          "title": "Minutas de Coordinación",
-          "path": "Talk/minutas_coordinacion.pdf"
+          "type": "folder",
+          "title": "Visitas Geologicas Guiadas",
+          "children": [
+            {
+              "type": "pdf",
+              "title": "V 1.0 Ficha tramite Visitas Geológicas Guiadas",
+              "path": "Procedimientos Municipales Mineros/Visitas Geologicas Guiadas/V 1.0 Ficha tramite Visitas Geológicas Guiadas.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "V 1.0 Política de Visitas Geológicas Guiadas",
+              "path": "Procedimientos Municipales Mineros/Visitas Geologicas Guiadas/V 1.0 Política de Visitas Geológicas Guiadas.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "V- 1.0 Carta de visitas geológicas guiadas",
+              "path": "Procedimientos Municipales Mineros/Visitas Geologicas Guiadas/V- 1.0 Carta de visitas geológicas guiadas.pdf"
+            }
+          ]
         }
       ]
     },
@@ -154,18 +1598,38 @@
       "children": [
         {
           "type": "video",
-          "title": "Introducción al Sistema SIGEM",
-          "path": "Videos de Formación Municipal/intro_sigem.mp4"
+          "title": "Adjudicación de Área para Pequeña Minería No Metálica INHGEOMIN-DUPAI",
+          "path": "Videos de Formación Municipal/Adjudicación de Área para Pequeña Minería No Metálica INHGEOMIN-DUPAI.mp4"
         },
         {
           "type": "video",
-          "title": "Gestión de Permisos Mineros",
-          "path": "Videos de Formación Municipal/gestion_permisos.mp4"
+          "title": "Canal de Capacitaciones",
+          "path": "Videos de Formación Municipal/Canal de Capacitaciones.mp4"
         },
         {
           "type": "video",
-          "title": "Procedimientos de Inspección",
-          "path": "Videos de Formación Municipal/procedimientos_inspeccion.mp4"
+          "title": "Catastro Minero en Linea",
+          "path": "Videos de Formación Municipal/Catastro Minero en Linea.mp4"
+        },
+        {
+          "type": "video",
+          "title": "El Instituto Hondureño de Geología y Minas -",
+          "path": "Videos de Formación Municipal/El Instituto Hondureño de Geología y Minas -.mp4"
+        },
+        {
+          "type": "video",
+          "title": "Genero-Video",
+          "path": "Videos de Formación Municipal/Genero-Video.mp4"
+        },
+        {
+          "type": "video",
+          "title": "Simplificación del trámite de Pequeña minería",
+          "path": "Videos de Formación Municipal/Simplificación del trámite de Pequeña minería.mp4"
+        },
+        {
+          "type": "video",
+          "title": "¡En INHGEOMIN, creemos en el poder de la minería",
+          "path": "Videos de Formación Municipal/¡En INHGEOMIN, creemos en el poder de la minería.mp4"
         }
       ]
     }

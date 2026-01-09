@@ -5,7 +5,7 @@ import FileCard from './FileCard';
 import Breadcrumb from './Breadcrumb';
 import VideoPlayer from './VideoPlayer';
 
-const REPO_URL = 'https://raw.githubusercontent.com/{user}/{repo}/main/biblioteca/';
+const REPO_URL = 'https://raw.githubusercontent.com/flavio1227/Biblioteca/master/biblioteca/';
 
 export default function Biblioteca() {
   const [data, setData] = useState<BibliotecaData | null>(null);

@@ -1,4 +1,4 @@
-import { Folder, FileText, Video } from 'lucide-react';
+import { Folder, FileText, Video, File, Image as ImageIcon } from 'lucide-react';
 import type { BibliotecaItem } from '../types/biblioteca';
 
 interface FileCardProps {
@@ -16,19 +16,45 @@ export default function FileCard({ item, onNavigate, repoUrl }: FileCardProps) {
         return <FileText className="w-14 h-14 text-rose-700" strokeWidth={1.5} />;
       case 'video':
         return <Video className="w-14 h-14 text-slate-700" strokeWidth={1.5} />;
+      case 'word':
+        return <FileText className="w-14 h-14 text-blue-600" strokeWidth={1.5} />;
+      case 'powerpoint':
+        return <FileText className="w-14 h-14 text-orange-600" strokeWidth={1.5} />;
+      case 'excel':
+        return <FileText className="w-14 h-14 text-green-600" strokeWidth={1.5} />;
+      case 'image':
+        return <ImageIcon className="w-14 h-14 text-purple-600" strokeWidth={1.5} />;
       default:
-        return <FileText className="w-14 h-14 text-slate-500" strokeWidth={1.5} />;
+        return <File className="w-14 h-14 text-slate-500" strokeWidth={1.5} />;
+    }
+  };
+
+  const getTypeLabel = () => {
+    switch (item.type) {
+      case 'word':
+        return 'Word';
+      case 'powerpoint':
+        return 'PowerPoint';
+      case 'excel':
+        return 'Excel';
+      case 'image':
+        return 'Imagen';
+      case 'other':
+        return 'Archivo';
+      default:
+        return item.type;
     }
   };
 
   const handleClick = () => {
     if (item.type === 'folder') {
       onNavigate?.(item);
-    } else if (item.type === 'pdf') {
-      const url = `${repoUrl}${item.path}`;
-      window.open(url, '_blank', 'noopener,noreferrer');
     } else if (item.type === 'video') {
       onNavigate?.(item);
+    } else {
+      // Para PDF, Word, PowerPoint, Excel, imágenes y otros archivos
+      const url = `${repoUrl}${item.path}`;
+      window.open(url, '_blank', 'noopener,noreferrer');
     }
   };
 
@@ -45,7 +71,7 @@ export default function FileCard({ item, onNavigate, repoUrl }: FileCardProps) {
       </h3>
       {item.type !== 'folder' && (
         <span className="text-xs text-slate-400 mt-3 uppercase tracking-wider font-light">
-          {item.type}
+          {getTypeLabel()}
         </span>
       )}
     </div>

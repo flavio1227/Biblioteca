@@ -1,4 +1,4 @@
-export type FileType = 'pdf' | 'video' | 'folder';
+export type FileType = 'pdf' | 'video' | 'folder' | 'word' | 'powerpoint' | 'excel' | 'image' | 'other';
 
 export interface BibliotecaFile {
   type: FileType;
