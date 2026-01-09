@@ -36,9 +36,23 @@ try {
   linkRegex.lastIndex = 0;
   
   // Fix all absolute paths that don't start with /Biblioteca/
+  // This handles: src="/assets/..." -> src="/Biblioteca/assets/..."
+  // And also: src="/src/..." -> src="/Biblioteca/src/..." (though this shouldn't happen in production)
   html = html.replace(/(src|href)=["']\/([^"']+)["']/g, (match, attr, path) => {
     if (!path.startsWith('Biblioteca/')) {
-      return `${attr}="/Biblioteca/${path}"`;
+      const fixed = `${attr}="/Biblioteca/${path}"`;
+      console.log(`  Fixing: ${match} -> ${fixed}`);
+      return fixed;
+    }
+    return match;
+  });
+  
+  // Also handle unquoted attributes (though rare)
+  html = html.replace(/(src|href)=\/([^ >"']+)/g, (match, attr, path) => {
+    if (!path.startsWith('Biblioteca/')) {
+      const fixed = `${attr}=/Biblioteca/${path}`;
+      console.log(`  Fixing unquoted: ${match} -> ${fixed}`);
+      return fixed;
     }
     return match;
   });
