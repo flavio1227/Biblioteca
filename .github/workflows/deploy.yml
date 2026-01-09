@@ -58,22 +58,31 @@ jobs:
         run: |
           echo "🔧 Running path fix script..."
           if [ -f dist/index.html ]; then
-            node scripts/fix-paths.mjs || {
-              echo "⚠️ Script failed, trying manual fix..."
-              cd dist
-              # Manual fallback fix
-              sed -i.bak 's|\(src\|href\)="/\([^"]*\)"|\1="/Biblioteca/\2"|g' index.html
-              sed -i.bak 's|/Biblioteca/Biblioteca/|/Biblioteca/|g' index.html
-              rm -f index.html.bak
-              echo "✅ Manual fix applied"
-            }
+            # Run the Node.js script
+            node scripts/fix-paths.mjs
+            
+            # ALWAYS apply manual fix as backup (even if script succeeds)
             echo ""
-            echo "📄 Verifying fixed HTML..."
-            echo "Script tags found:"
-            grep -E '<script[^>]*src=' index.html | head -3 || echo "No script tags with src found"
+            echo "🔧 Applying additional manual fixes..."
+            cd dist
+            # Fix all absolute paths
+            sed -i.bak 's|\(src\|href\)="/\([^"]*\)"|\1="/Biblioteca/\2"|g' index.html
+            sed -i.bak "s|\(src\|href\)='/\([^']*\)'|\1='/Biblioteca/\2'|g" index.html
+            # Fix double Biblioteca
+            sed -i.bak 's|/Biblioteca/Biblioteca/|/Biblioteca/|g' index.html
+            # Remove backup
+            rm -f index.html.bak
+            
             echo ""
-            echo "Link tags found:"
-            grep -E '<link[^>]*href=' index.html | head -3 || echo "No link tags with href found"
+            echo "📄 Final verification of fixed HTML..."
+            echo "All script src attributes:"
+            grep -oE '<script[^>]*src=["'"'"'][^"'"'"']+["'"'"'][^>]*>' index.html || echo "No script tags with src found"
+            echo ""
+            echo "All link href attributes:"
+            grep -oE '<link[^>]*href=["'"'"'][^"'"'"']+["'"'"'][^>]*>' index.html || echo "No link tags with href found"
+            echo ""
+            echo "Checking for problematic paths (should be empty):"
+            grep -oE '(src|href)=["'"'"']/[^B][^"'"'"']+["'"'"']' index.html | grep -v 'Biblioteca' | grep -v 'http' | head -5 || echo "✅ No problematic paths found!"
           else
             echo "❌ dist/index.html not found!"
             exit 1
