@@ -23,7 +23,8 @@ function App() {
   const [expandedTables, setExpandedTables] = useState<Record<string, boolean>>({});
 
   const handleReturn = () => {
-    window.location.href = 'https://flavio1227.github.io/SIGEM1.1/';
+    // Redirigir a la página principal o dejar vacío según necesidad
+    window.location.href = '/';
   };
 
   const toggleTable = (tableId: string) => {
@@ -109,12 +110,11 @@ function App() {
             background: 'linear-gradient(to right, #F5F7F3, #FFFFFF)'
           }}>
             <h1 className="text-3xl font-bold mb-3" style={{ color: '#1E4D2B' }}>
-              Mapas Geoespaciales
+              Biblioteca Digital
             </h1>
             <p className="leading-relaxed" style={{ color: '#2F2F2F' }}>
               Visualización interactiva de información geográfica generada en QGIS.
-              Este visor permite explorar capas, ubicaciones y datos territoriales sin
-              salir del entorno SIGEM.
+              Este visor permite explorar capas, ubicaciones y datos territoriales.
             </p>
           </div>
 
@@ -281,7 +281,7 @@ function App() {
             borderTop: '1px solid rgba(30, 77, 43, 0.1)'
           }}>
             <p className="text-sm text-center" style={{ color: '#2F2F2F', opacity: 0.7 }}>
-              Sistema Integrado de Gestión Municipal - SIGEM 1.1
+              Biblioteca Digital
             </p>
           </div>
         </div>
