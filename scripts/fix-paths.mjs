@@ -22,13 +22,23 @@ try {
   
   console.log('🔍 Found script tags:');
   let match;
+  const scriptPaths = [];
   while ((match = scriptRegex.exec(html)) !== null) {
     console.log(`  - ${match[1]}`);
+    scriptPaths.push(match[1]);
   }
   
   console.log('🔍 Found link tags:');
+  const linkPaths = [];
   while ((match = linkRegex.exec(html)) !== null) {
     console.log(`  - ${match[1]}`);
+    linkPaths.push(match[1]);
+  }
+  
+  // Check if we have problematic paths
+  const hasSrcMain = scriptPaths.some(p => p.includes('/src/main'));
+  if (hasSrcMain) {
+    console.log('⚠️ WARNING: Found /src/main.tsx path - this should be compiled by Vite!');
   }
   
   // Reset regex
