@@ -1,0 +1,173 @@
+{
+  "folders": [
+    {
+      "type": "folder",
+      "title": "Biblioteca Jurídica",
+      "children": [
+        {
+          "type": "pdf",
+          "title": "Ley General de Minería",
+          "path": "Biblioteca Jurídica/ley_general_mineria.pdf"
+        },
+        {
+          "type": "pdf",
+          "title": "Reglamento Ambiental",
+          "path": "Biblioteca Jurídica/reglamento_ambiental.pdf"
+        },
+        {
+          "type": "folder",
+          "title": "Normativa Municipal",
+          "children": [
+            {
+              "type": "pdf",
+              "title": "Ley de Autonomías",
+              "path": "Biblioteca Jurídica/Normativa Municipal/ley_autonomias.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Estatuto Municipal",
+              "path": "Biblioteca Jurídica/Normativa Municipal/estatuto_municipal.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "title": "Biblioteca Técnica",
+      "children": [
+        {
+          "type": "pdf",
+          "title": "Manual de Operaciones Mineras",
+          "path": "Biblioteca Técnica/manual_operaciones_mineras.pdf"
+        },
+        {
+          "type": "pdf",
+          "title": "Guía de Seguridad Industrial",
+          "path": "Biblioteca Técnica/guia_seguridad_industrial.pdf"
+        },
+        {
+          "type": "pdf",
+          "title": "Normas de Calidad",
+          "path": "Biblioteca Técnica/normas_calidad.pdf"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "title": "Plantillas",
+      "children": [
+        {
+          "type": "pdf",
+          "title": "Plantilla de Informe Mensual",
+          "path": "Plantillas/plantilla_informe_mensual.pdf"
+        },
+        {
+          "type": "pdf",
+          "title": "Plantilla de Solicitud de Permiso",
+          "path": "Plantillas/plantilla_solicitud_permiso.pdf"
+        },
+        {
+          "type": "pdf",
+          "title": "Plantilla de Acta de Reunión",
+          "path": "Plantillas/plantilla_acta_reunion.pdf"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "title": "Procedimientos Municipales Mineros",
+      "children": [
+        {
+          "type": "pdf",
+          "title": "Procedimiento de Registro",
+          "path": "Procedimientos Municipales Mineros/procedimiento_registro.pdf"
+        },
+        {
+          "type": "pdf",
+          "title": "Procedimiento de Inspección",
+          "path": "Procedimientos Municipales Mineros/procedimiento_inspeccion.pdf"
+        },
+        {
+          "type": "pdf",
+          "title": "Procedimiento de Sanciones",
+          "path": "Procedimientos Municipales Mineros/procedimiento_sanciones.pdf"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "title": "Reportes Anuales Municipales",
+      "children": [
+        {
+          "type": "pdf",
+          "title": "Reporte Anual 2023",
+          "path": "Reportes Anuales Municipales/reporte_anual_2023.pdf"
+        },
+        {
+          "type": "pdf",
+          "title": "Reporte Anual 2022",
+          "path": "Reportes Anuales Municipales/reporte_anual_2022.pdf"
+        },
+        {
+          "type": "pdf",
+          "title": "Reporte Anual 2021",
+          "path": "Reportes Anuales Municipales/reporte_anual_2021.pdf"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "title": "sincro",
+      "children": [
+        {
+          "type": "pdf",
+          "title": "Manual de Sincronización",
+          "path": "sincro/manual_sincronizacion.pdf"
+        },
+        {
+          "type": "pdf",
+          "title": "Protocolo de Datos",
+          "path": "sincro/protocolo_datos.pdf"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "title": "Talk",
+      "children": [
+        {
+          "type": "pdf",
+          "title": "Actas de Reuniones 2023",
+          "path": "Talk/actas_reuniones_2023.pdf"
+        },
+        {
+          "type": "pdf",
+          "title": "Minutas de Coordinación",
+          "path": "Talk/minutas_coordinacion.pdf"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "title": "Videos de Formación Municipal",
+      "children": [
+        {
+          "type": "video",
+          "title": "Introducción al Sistema SIGEM",
+          "path": "Videos de Formación Municipal/intro_sigem.mp4"
+        },
+        {
+          "type": "video",
+          "title": "Gestión de Permisos Mineros",
+          "path": "Videos de Formación Municipal/gestion_permisos.mp4"
+        },
+        {
+          "type": "video",
+          "title": "Procedimientos de Inspección",
+          "path": "Videos de Formación Municipal/procedimientos_inspeccion.mp4"
+        }
+      ]
+    }
+  ]
+}
