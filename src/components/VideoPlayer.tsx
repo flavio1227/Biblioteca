@@ -9,30 +9,31 @@ interface VideoPlayerProps {
 export default function VideoPlayer({ videoUrl, title, onClose }: VideoPlayerProps) {
   return (
     <div
-      className="fixed inset-0 bg-black bg-opacity-60 backdrop-blur-sm z-50 flex items-center justify-center p-6 animate-in fade-in duration-200"
+      className="fixed inset-0 bg-black bg-opacity-75 z-50 flex items-center justify-center p-4 animate-in fade-in duration-200"
       onClick={onClose}
     >
       <div
-        className="bg-white rounded-2xl shadow-2xl max-w-5xl w-full max-h-[90vh] overflow-hidden animate-in zoom-in-95 duration-300"
+        className="bg-white rounded-xl shadow-2xl w-full max-w-7xl max-h-[95vh] flex flex-col animate-in zoom-in-95 duration-300"
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="flex items-center justify-between px-6 py-5 border-b border-neutral-200">
-          <h2 className="text-base font-normal text-slate-800 truncate flex-1 mr-4">
+        <div className="flex items-center justify-between px-4 py-3 border-b border-neutral-200 flex-shrink-0">
+          <h2 className="text-lg font-medium text-slate-800 truncate flex-1 mr-4">
             {title}
           </h2>
           <button
             onClick={onClose}
-            className="p-2 hover:bg-neutral-100 rounded-full transition-all duration-200 flex-shrink-0"
+            className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-lg hover:bg-neutral-100 transition-colors duration-200"
             aria-label="Cerrar"
           >
             <X className="w-5 h-5 text-slate-600" strokeWidth={1.5} />
           </button>
         </div>
-        <div className="p-8 bg-neutral-50">
+        <div className="flex-1 overflow-hidden bg-black flex items-center justify-center p-4 min-h-0">
           <video
             controls
-            className="w-full rounded-lg shadow-sm bg-black"
+            className="max-w-full max-h-full w-auto h-auto rounded-lg"
             preload="metadata"
+            style={{ maxHeight: 'calc(95vh - 80px)' }}
           >
             <source src={videoUrl} type="video/mp4" />
             Tu navegador no soporta la reproducción de video.
