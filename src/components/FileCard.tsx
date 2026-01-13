@@ -49,11 +49,14 @@ export default function FileCard({ item, onNavigate, repoUrl }: FileCardProps) {
   const handleClick = () => {
     if (item.type === 'folder') {
       onNavigate?.(item);
-    } else if (item.type === 'video') {
+    } else if (item.type === 'video' || item.type === 'pdf') {
       onNavigate?.(item);
     } else {
-      // Para PDF, Word, PowerPoint, Excel, imágenes y otros archivos
-      const url = `${repoUrl}${item.path}`;
+      // Para Word, PowerPoint, Excel, imágenes y otros archivos
+      // Codificar cada parte del path por separado para manejar espacios y caracteres especiales
+      const pathParts = item.path.split('/');
+      const encodedPath = pathParts.map(part => encodeURIComponent(part)).join('/');
+      const url = `${repoUrl}${encodedPath}`;
       window.open(url, '_blank', 'noopener,noreferrer');
     }
   };

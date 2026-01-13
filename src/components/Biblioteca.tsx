@@ -4,6 +4,7 @@ import type { BibliotecaData, BibliotecaItem, BibliotecaFolder } from '../types/
 import FileCard from './FileCard';
 import Breadcrumb from './Breadcrumb';
 import VideoPlayer from './VideoPlayer';
+import PDFViewer from './PDFViewer';
 
 const REPO_URL = 'https://raw.githubusercontent.com/flavio1227/Biblioteca/master/biblioteca/';
 
@@ -14,6 +15,7 @@ export default function Biblioteca() {
   const [currentPath, setCurrentPath] = useState<string[]>([]);
   const [navigationStack, setNavigationStack] = useState<BibliotecaItem[][]>([]);
   const [currentVideo, setCurrentVideo] = useState<BibliotecaItem | null>(null);
+  const [currentPDF, setCurrentPDF] = useState<BibliotecaItem | null>(null);
 
   useEffect(() => {
     fetchBibliotecaData();
@@ -50,6 +52,8 @@ export default function Biblioteca() {
       setCurrentPath([...currentPath, item.title]);
     } else if (item.type === 'video') {
       setCurrentVideo(item);
+    } else if (item.type === 'pdf') {
+      setCurrentPDF(item);
     }
   };
 
@@ -130,6 +134,14 @@ export default function Biblioteca() {
           videoUrl={`${REPO_URL}${currentVideo.path}`}
           title={currentVideo.title}
           onClose={() => setCurrentVideo(null)}
+        />
+      )}
+
+      {currentPDF && (
+        <PDFViewer
+          pdfUrl={`${REPO_URL}${currentPDF.path.split('/').map(part => encodeURIComponent(part)).join('/')}`}
+          title={currentPDF.title}
+          onClose={() => setCurrentPDF(null)}
         />
       )}
     </div>

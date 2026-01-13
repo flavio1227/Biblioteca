@@ -44,3 +44,4 @@ export function getFileTypeFromPath(path: string): FileType {
   return 'other';
 }
 
+
