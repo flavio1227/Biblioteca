@@ -5,6 +5,8 @@ import FileCard from './FileCard';
 import Breadcrumb from './Breadcrumb';
 import VideoPlayer from './VideoPlayer';
 import PDFViewer from './PDFViewer';
+import ImageViewer from './ImageViewer';
+import OfficeViewer from './OfficeViewer';
 
 const REPO_URL = 'https://raw.githubusercontent.com/flavio1227/Biblioteca/master/biblioteca/';
 
@@ -16,6 +18,8 @@ export default function Biblioteca() {
   const [navigationStack, setNavigationStack] = useState<BibliotecaItem[][]>([]);
   const [currentVideo, setCurrentVideo] = useState<BibliotecaItem | null>(null);
   const [currentPDF, setCurrentPDF] = useState<BibliotecaItem | null>(null);
+  const [currentImage, setCurrentImage] = useState<BibliotecaItem | null>(null);
+  const [currentOffice, setCurrentOffice] = useState<BibliotecaItem | null>(null);
 
   useEffect(() => {
     fetchBibliotecaData();
@@ -54,6 +58,10 @@ export default function Biblioteca() {
       setCurrentVideo(item);
     } else if (item.type === 'pdf') {
       setCurrentPDF(item);
+    } else if (item.type === 'image') {
+      setCurrentImage(item);
+    } else if (item.type === 'word' || item.type === 'excel' || item.type === 'powerpoint') {
+      setCurrentOffice(item);
     }
   };
 
@@ -142,6 +150,23 @@ export default function Biblioteca() {
           pdfUrl={`${REPO_URL}${currentPDF.path.split('/').map(part => encodeURIComponent(part)).join('/')}`}
           title={currentPDF.title}
           onClose={() => setCurrentPDF(null)}
+        />
+      )}
+
+      {currentImage && (
+        <ImageViewer
+          imageUrl={`${REPO_URL}${currentImage.path.split('/').map(part => encodeURIComponent(part)).join('/')}`}
+          title={currentImage.title}
+          onClose={() => setCurrentImage(null)}
+        />
+      )}
+
+      {currentOffice && (
+        <OfficeViewer
+          fileUrl={`${REPO_URL}${currentOffice.path.split('/').map(part => encodeURIComponent(part)).join('/')}`}
+          title={currentOffice.title}
+          fileType={currentOffice.type as 'word' | 'excel' | 'powerpoint'}
+          onClose={() => setCurrentOffice(null)}
         />
       )}
     </div>
