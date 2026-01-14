@@ -71,7 +71,7 @@ export default function FileCard({ item, onNavigate, repoUrl }: FileCardProps) {
   return (
     <div
       onClick={handleClick}
-      className="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 p-8 cursor-pointer border border-neutral-100 hover:border-slate-300 flex flex-col items-center text-center group"
+      className="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 p-8 cursor-pointer border border-neutral-200/50 hover:border-neutral-300/80 flex flex-col items-center text-center group backdrop-blur-sm"
     >
       <div className="mb-5 group-hover:scale-105 transition-transform duration-300 ease-out">
         {getIcon()}

@@ -37,16 +37,16 @@ export default function ImageViewer({ imageUrl, title, onClose }: ImageViewerPro
   };
 
   return (
-    <div className="fixed inset-0 z-50 bg-black bg-opacity-90 flex items-center justify-center p-4">
-      <div className="bg-white rounded-xl shadow-2xl w-full h-full max-w-7xl max-h-[95vh] flex flex-col">
-        <div className="flex items-center justify-between p-4 border-b border-neutral-200">
+    <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4">
+      <div className="bg-white rounded-2xl shadow-2xl w-full h-full max-w-7xl max-h-[95vh] flex flex-col border border-neutral-200/50">
+        <div className="flex items-center justify-between p-5 border-b border-neutral-200/60">
           <h2 className="text-lg font-medium text-slate-800 truncate flex-1 mr-4">
             {title}
           </h2>
           <div className="flex items-center gap-2">
             <button
               onClick={handleZoomOut}
-              className="flex-shrink-0 p-2 flex items-center justify-center rounded-lg hover:bg-neutral-100 transition-colors duration-200"
+              className="flex-shrink-0 p-2.5 flex items-center justify-center rounded-xl hover:bg-neutral-100 transition-all duration-200 hover:scale-105"
               aria-label="Alejar"
               title="Alejar"
             >
@@ -54,14 +54,14 @@ export default function ImageViewer({ imageUrl, title, onClose }: ImageViewerPro
             </button>
             <button
               onClick={handleReset}
-              className="flex-shrink-0 px-3 py-1 text-xs text-slate-600 rounded-lg hover:bg-neutral-100 transition-colors duration-200"
+              className="flex-shrink-0 px-3.5 py-1.5 text-xs text-slate-600 rounded-xl hover:bg-neutral-100 transition-all duration-200 font-medium"
               title="Restablecer"
             >
               {Math.round(scale * 100)}%
             </button>
             <button
               onClick={handleZoomIn}
-              className="flex-shrink-0 p-2 flex items-center justify-center rounded-lg hover:bg-neutral-100 transition-colors duration-200"
+              className="flex-shrink-0 p-2.5 flex items-center justify-center rounded-xl hover:bg-neutral-100 transition-all duration-200 hover:scale-105"
               aria-label="Acercar"
               title="Acercar"
             >
@@ -69,7 +69,7 @@ export default function ImageViewer({ imageUrl, title, onClose }: ImageViewerPro
             </button>
             <button
               onClick={handleRotate}
-              className="flex-shrink-0 p-2 flex items-center justify-center rounded-lg hover:bg-neutral-100 transition-colors duration-200"
+              className="flex-shrink-0 p-2.5 flex items-center justify-center rounded-xl hover:bg-neutral-100 transition-all duration-200 hover:scale-105"
               aria-label="Rotar"
               title="Rotar 90°"
             >
@@ -77,7 +77,7 @@ export default function ImageViewer({ imageUrl, title, onClose }: ImageViewerPro
             </button>
             <button
               onClick={handleOpenNewTab}
-              className="flex-shrink-0 p-2 flex items-center justify-center rounded-lg hover:bg-neutral-100 transition-colors duration-200"
+              className="flex-shrink-0 p-2.5 flex items-center justify-center rounded-xl hover:bg-neutral-100 transition-all duration-200 hover:scale-105"
               aria-label="Abrir en nueva pestaña"
               title="Abrir en nueva pestaña"
             >
@@ -85,7 +85,7 @@ export default function ImageViewer({ imageUrl, title, onClose }: ImageViewerPro
             </button>
             <button
               onClick={handleDownload}
-              className="flex-shrink-0 p-2 flex items-center justify-center rounded-lg hover:bg-neutral-100 transition-colors duration-200"
+              className="flex-shrink-0 p-2.5 flex items-center justify-center rounded-xl hover:bg-neutral-100 transition-all duration-200 hover:scale-105"
               aria-label="Descargar"
               title="Descargar imagen"
             >
@@ -93,7 +93,7 @@ export default function ImageViewer({ imageUrl, title, onClose }: ImageViewerPro
             </button>
             <button
               onClick={onClose}
-              className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-lg hover:bg-neutral-100 transition-colors duration-200"
+              className="flex-shrink-0 w-9 h-9 flex items-center justify-center rounded-xl hover:bg-neutral-100 transition-all duration-200 hover:scale-105"
               aria-label="Cerrar"
             >
               <X className="w-5 h-5 text-slate-600" />

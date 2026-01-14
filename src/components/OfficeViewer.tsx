@@ -37,9 +37,9 @@ export default function OfficeViewer({ fileUrl, title, fileType, onClose }: Offi
   };
 
   return (
-    <div className="fixed inset-0 z-50 bg-black bg-opacity-75 flex items-center justify-center p-4">
-      <div className="bg-white rounded-xl shadow-2xl w-full h-full max-w-7xl max-h-[95vh] flex flex-col">
-        <div className="flex items-center justify-between p-4 border-b border-neutral-200">
+    <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4">
+      <div className="bg-white rounded-2xl shadow-2xl w-full h-full max-w-7xl max-h-[95vh] flex flex-col border border-neutral-200/50">
+        <div className="flex items-center justify-between p-5 border-b border-neutral-200/60">
           <h2 className="text-lg font-medium text-slate-800 truncate flex-1 mr-4">
             {title}
             <span className="ml-2 text-sm text-slate-500 font-normal">({getTypeLabel()})</span>
@@ -47,7 +47,7 @@ export default function OfficeViewer({ fileUrl, title, fileType, onClose }: Offi
           <div className="flex items-center gap-2">
             <button
               onClick={handleOpenNewTab}
-              className="flex-shrink-0 p-2 flex items-center justify-center rounded-lg hover:bg-neutral-100 transition-colors duration-200"
+              className="flex-shrink-0 p-2.5 flex items-center justify-center rounded-xl hover:bg-neutral-100 transition-all duration-200 hover:scale-105"
               aria-label="Abrir en nueva pestaña"
               title="Abrir en nueva pestaña"
             >
@@ -55,7 +55,7 @@ export default function OfficeViewer({ fileUrl, title, fileType, onClose }: Offi
             </button>
             <button
               onClick={handleDownload}
-              className="flex-shrink-0 p-2 flex items-center justify-center rounded-lg hover:bg-neutral-100 transition-colors duration-200"
+              className="flex-shrink-0 p-2.5 flex items-center justify-center rounded-xl hover:bg-neutral-100 transition-all duration-200 hover:scale-105"
               aria-label="Descargar"
               title="Descargar archivo"
             >
@@ -63,7 +63,7 @@ export default function OfficeViewer({ fileUrl, title, fileType, onClose }: Offi
             </button>
             <button
               onClick={onClose}
-              className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-lg hover:bg-neutral-100 transition-colors duration-200"
+              className="flex-shrink-0 w-9 h-9 flex items-center justify-center rounded-xl hover:bg-neutral-100 transition-all duration-200 hover:scale-105"
               aria-label="Cerrar"
             >
               <X className="w-5 h-5 text-slate-600" />
@@ -83,10 +83,10 @@ export default function OfficeViewer({ fileUrl, title, fileType, onClose }: Offi
             <div className="absolute inset-0 flex items-center justify-center bg-white">
               <div className="text-center p-6">
                 <p className="text-slate-600 text-sm mb-4">No se pudo cargar el documento</p>
-                <div className="flex gap-2 justify-center">
+                <div className="flex gap-3 justify-center">
                   <button
                     onClick={handleOpenNewTab}
-                    className="bg-slate-700 text-white py-2 px-4 rounded-lg hover:bg-slate-800 transition-colors duration-200 text-sm"
+                    className="bg-slate-700 text-white py-2.5 px-5 rounded-xl hover:bg-slate-800 transition-all duration-200 text-sm font-medium shadow-sm hover:shadow"
                   >
                     Abrir en nueva pestaña
                   </button>
@@ -95,7 +95,7 @@ export default function OfficeViewer({ fileUrl, title, fileType, onClose }: Offi
                       setError(false);
                       setLoading(true);
                     }}
-                    className="bg-slate-200 text-slate-700 py-2 px-4 rounded-lg hover:bg-slate-300 transition-colors duration-200 text-sm"
+                    className="bg-white border border-neutral-300 text-slate-700 py-2.5 px-5 rounded-xl hover:bg-neutral-50 transition-all duration-200 text-sm font-medium shadow-sm hover:shadow"
                   >
                     Reintentar
                   </button>

@@ -77,7 +77,7 @@ export default function Biblioteca() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-neutral-50 flex items-center justify-center">
+      <div className="min-h-screen bg-gradient-to-b from-neutral-50 to-white flex items-center justify-center">
         <div className="text-center">
           <Loader2 className="w-10 h-10 text-slate-600 animate-spin mx-auto mb-3" />
           <p className="text-slate-600 text-sm font-light">Cargando biblioteca...</p>
@@ -88,8 +88,8 @@ export default function Biblioteca() {
 
   if (error) {
     return (
-      <div className="min-h-screen bg-neutral-50 flex items-center justify-center p-6">
-        <div className="bg-white rounded-xl shadow-sm border border-neutral-200 p-10 max-w-md w-full">
+      <div className="min-h-screen bg-gradient-to-b from-neutral-50 to-white flex items-center justify-center p-6">
+        <div className="bg-white rounded-2xl shadow-lg border border-neutral-200/60 p-10 max-w-md w-full">
           <div className="flex items-start space-x-3 mb-4 text-red-700">
             <AlertCircle className="w-6 h-6 mt-0.5 flex-shrink-0" />
             <h2 className="text-lg font-medium">Error al cargar</h2>
@@ -97,7 +97,7 @@ export default function Biblioteca() {
           <p className="text-slate-600 text-sm mb-6 leading-relaxed">{error}</p>
           <button
             onClick={fetchBibliotecaData}
-            className="w-full bg-slate-700 text-white py-2.5 px-4 rounded-lg hover:bg-slate-800 transition-all duration-200 text-sm font-medium"
+            className="w-full bg-slate-700 text-white py-2.5 px-4 rounded-lg hover:bg-slate-800 transition-all duration-200 text-sm font-medium shadow-sm hover:shadow"
           >
             Reintentar
           </button>
@@ -109,12 +109,14 @@ export default function Biblioteca() {
   const currentItems = getCurrentItems();
 
   return (
-    <div className="min-h-screen bg-neutral-50">
+    <div className="min-h-screen bg-gradient-to-b from-neutral-50 to-white">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-12 sm:py-16">
         <header className="mb-12">
-          <div className="flex items-center space-x-3 mb-8 pb-6 border-b border-neutral-200">
-            <Library className="w-8 h-8 text-slate-700" strokeWidth={1.5} />
-            <h1 className="text-2xl font-light text-slate-800 tracking-wide">Biblioteca SIGEM</h1>
+          <div className="flex items-center space-x-4 mb-10 pb-8 border-b border-neutral-200/60">
+            <div className="p-2.5 rounded-xl bg-white shadow-sm border border-neutral-200/50">
+              <Library className="w-7 h-7 text-slate-700" strokeWidth={1.5} />
+            </div>
+            <h1 className="text-3xl font-light text-slate-800 tracking-tight">Biblioteca SIGEM</h1>
           </div>
           <Breadcrumb path={currentPath} onNavigate={handleBreadcrumbNavigate} />
         </header>

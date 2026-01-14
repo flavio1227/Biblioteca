@@ -9,20 +9,20 @@ interface VideoPlayerProps {
 export default function VideoPlayer({ videoUrl, title, onClose }: VideoPlayerProps) {
   return (
     <div
-      className="fixed inset-0 bg-black bg-opacity-75 z-50 flex items-center justify-center p-4 animate-in fade-in duration-200"
+      className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 animate-in fade-in duration-200"
       onClick={onClose}
     >
       <div
-        className="bg-white rounded-xl shadow-2xl w-full max-w-7xl max-h-[95vh] flex flex-col animate-in zoom-in-95 duration-300"
+        className="bg-white rounded-2xl shadow-2xl w-full max-w-7xl max-h-[95vh] flex flex-col animate-in zoom-in-95 duration-300 border border-neutral-200/50"
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="flex items-center justify-between px-4 py-3 border-b border-neutral-200 flex-shrink-0">
+        <div className="flex items-center justify-between px-5 py-4 border-b border-neutral-200/60 flex-shrink-0">
           <h2 className="text-lg font-medium text-slate-800 truncate flex-1 mr-4">
             {title}
           </h2>
           <button
             onClick={onClose}
-            className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-lg hover:bg-neutral-100 transition-colors duration-200"
+            className="flex-shrink-0 w-9 h-9 flex items-center justify-center rounded-xl hover:bg-neutral-100 transition-all duration-200 hover:scale-105"
             aria-label="Cerrar"
           >
             <X className="w-5 h-5 text-slate-600" strokeWidth={1.5} />
