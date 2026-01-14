@@ -1,4 +1,4 @@
-import { ArrowLeft, Mountain, AlertTriangle, Pickaxe, ChevronDown, ChevronUp } from 'lucide-react';
+import { Mountain, AlertTriangle, Pickaxe, ChevronDown, ChevronUp } from 'lucide-react';
 import { useState } from 'react';
 
 type MapType = 'concesiones' | 'incidencias' | 'permisos';
@@ -21,11 +21,6 @@ interface MapConfig {
 function App() {
   const [activeMap, setActiveMap] = useState<MapType>('concesiones');
   const [expandedTables, setExpandedTables] = useState<Record<string, boolean>>({});
-
-  const handleReturn = () => {
-    // Redirigir a la página principal o dejar vacío según necesidad
-    window.location.href = '/';
-  };
 
   const toggleTable = (tableId: string) => {
     setExpandedTables(prev => ({
@@ -82,24 +77,13 @@ function App() {
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: '#E9ECE5' }}>
-      {/* Header with Return Button */}
-      <header className="bg-white shadow-sm" style={{ borderBottom: '1px solid rgba(30, 77, 43, 0.1)' }}>
-        <div className="container mx-auto px-4 py-4">
-          <button
-            onClick={handleReturn}
-            className="flex items-center gap-2 font-medium transition-all duration-200 px-4 py-2 rounded-md"
-            style={{
-              backgroundColor: '#4C8C4A',
-              color: '#FFFFFF'
-            }}
-            onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#1E4D2B'}
-            onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#4C8C4A'}
-          >
-            <ArrowLeft size={20} />
-            <span>Regresar</span>
-          </button>
-        </div>
-      </header>
+      {/* Fixed Apple-style Navigation Button */}
+      <a
+        href="https://flavio1227.github.io/SIGEM1.1/"
+        className="fixed top-4 left-4 z-50 inline-block px-3 py-1.5 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-md shadow-sm hover:bg-gray-50"
+      >
+        SIGEM
+      </a>
 
       {/* Main Content */}
       <main className="container mx-auto px-4 py-8 max-w-7xl">
